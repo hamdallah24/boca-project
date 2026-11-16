@@ -1,0 +1,938 @@
+{
+ "id": "BOCA-D18",
+ "day": 18,
+ "series": "BMT",
+ "title": "Bagaimana otak menyimpan ingatan?",
+ "duration_target": 60,
+ "facts_status": "pending",
+ "logline": "Dokter Nia ingin tahu di mana ingatan disimpan. Boca menjelaskan jalur saraf yang makin lebar setiap kali dipakai.",
+ "hook": {
+  "pattern": "H2",
+  "claim": "Ingatan kita sebenarnya disimpan di mana sih, di dalam kepala kita?",
+  "gap": "Tapi di bagian mana sebenarnya?",
+  "promise": "Ternyata di jaringan saraf yang saling terhubung.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "dokter_nia"
+ },
+ "analogy": {
+  "source": "jalur setapak di hutan yang sering dilalui orang",
+  "maps": [
+   {
+    "real": "jalur saraf yang sering dipakai makin lebar",
+    "analogy": "jalur setapak yang sering dilalui makin lebar"
+   },
+   {
+    "real": "mengingat kembali memperkuat jalur itu lagi",
+    "analogy": "melewati jalur itu lagi membuatnya makin jelas"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Anak-anak di kampung sering melihat jalur di hutan jadi makin lebar karena dipakai."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "twist",
+   "shot": 5
+  },
+  {
+   "beat": "twist",
+   "shot": 6
+  },
+  {
+   "beat": "payoff",
+   "shot": 7
+  },
+  {
+   "beat": "cta",
+   "shot": 8
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Autonoe",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 180,
+  "est_seconds": 57,
+  "lumi_lines": 3,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "neuron_city",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 7.5,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Ingatan kita sebenarnya disimpan di mana sih, di dalam kepala kita?",
+     "caption": "ingatan disimpan di mana",
+     "caption_adult": "Ingatan kita sebenarnya disimpan di mana sih, di dalam kepala kita?"
+    },
+    {
+     "who": "boca",
+     "text": "Ternyata bukan disimpan di satu lemari, tapi di jaringan saraf yang saling terhubung.",
+     "caption": "bukan satu lemari, tapi jaringan saraf",
+     "caption_adult": "jaringan neuron"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "body_inside",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 7.5,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Tiap kali kamu mengingat sesuatu, jalur di dalam otak ikut menyala terang-terang.",
+     "caption": "jalur di otak menyala saat mengingat",
+     "caption_adult": "aktivasi jalur"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi seperti lampu-lampu di kota yang menyala bergantian satu sama lain, ya?",
+     "caption": "seperti lampu kota menyala bergantian",
+     "caption_adult": "analogi kota"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 3,
+   "scene": "classroom",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 7.8,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Mirip sekali, ya. Setiap ingatan punya jalur dan pola yang tersendiri sendiri.",
+     "caption": "tiap ingatan punya jalur sendiri",
+     "caption_adult": "pola jalur"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau pola itu sering diulang, jalurnya makin lebar dan jadi lebih mudah dilalui.",
+     "caption": "jalur makin lebar jika sering diulang",
+     "caption_adult": "plastisitas sinaptik"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "bulb",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "scene": "garden",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 7.5,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan jalur setapak di hutan yang sering dilalui banyak orang setiap hari.",
+     "caption": "jalur setapak yang sering dilalui",
+     "caption_adult": "analogi jalur setapak"
+    },
+    {
+     "who": "dokter_nia",
+     "text": "Makin sering dilalui, makin lebar dan gampang untuk lewat ke arah sana.",
+     "caption": "makin sering, makin lebar",
+     "caption_adult": "pemetaan jalur setapak"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 5,
+   "scene": "park_evening",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Otak juga sering memangkas jalur yang tidak pernah dipakai sama sekali sejak dulu.",
+     "caption": "otak memangkas jalur tak terpakai",
+     "caption_adult": "pemangkasan jalur"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi ingatan yang jarang dipakai lama-lama hilang, ya?",
+     "caption": "ingatan jarang dipakai lama-lama hilang",
+     "caption_adult": "klarifikasi kelupaan"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 6,
+   "scene": "beach",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 7.2,
+   "dialogue": [
+    {
+     "who": "lumi",
+     "text": "Tapi kadang hal yang kita pikir sudah hilang, tiba-tiba muncul lagi.",
+     "caption": "tiba-tiba muncul lagi",
+     "caption_adult": "reminiscensi"
+    },
+    {
+     "who": "boca",
+     "text": "Iya. Jalur itu nggak hilang, cuma jarang dilalui sampai tiba-tiba kepakai lagi.",
+     "caption": "jalur tidak hilang, cuma jarang dipakai",
+     "caption_adult": "reaktivasi jalur"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 7,
+   "scene": "classroom",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Makanya terasa kayak kita benar-benar mengalaminya dua kali.",
+     "caption": "terasa mengalaminya dua kali",
+     "caption_adult": "deja vu"
+    },
+    {
+     "who": "boca",
+     "text": "Yang membedakan, ingatan itu disusun ulang setiap kali kita memakainya lagi.",
+     "caption": "ingatan disusun ulang tiap dipakai",
+     "caption_adult": "rekonstruksi ingatan"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 8,
+   "scene": "city_top",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.6
+    ]
+   ],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba ingat kejadian masa kecilmu, detail terkecilnya masih jelas?",
+     "caption": "detail masa kecil masih jelas?",
+     "caption_adult": "undang penonton"
+    },
+    {
+     "who": "dokter_nia",
+     "text": "Yang jelas fotonya saja. Perasaannya sudah nggak sekeras waktu itu dulu.",
+     "caption": "fotonya jelas, perasaan sudah melemah",
+     "caption_adult": "cerita pribadi"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "dokter_nia",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "neuron_city",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "body_inside",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "classroom",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "garden",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "park_evening",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "beach",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_top",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "dokter_nia",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Autonoe",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Tamu dokter_nia bicara 3 baris. Semua scene sudah ada.",
+ "scene_family": "brain_map",
+ "motion_motif": "memory_path_and_recall"
+}

@@ -1,0 +1,1120 @@
+{
+ "id": "BOCA-D05",
+ "day": 5,
+ "series": "KYB",
+ "title": "Kenapa pesawat yang berat bisa terbang?",
+ "duration_target": 60,
+ "facts_status": "pending",
+ "logline": "Pak Darno heran pesawat seberat puluhan mobil bisa naik. Boca menjelaskan gaya angkat lewat tangan di jendela mobil.",
+ "hook": {
+  "pattern": "H6",
+  "claim": "Kenapa pesawat seberat puluhan mobil bisa terbang tinggi sekali di langit, ya?",
+  "gap": "Padahal besi tidak punya sayap alami.",
+  "promise": "Jawabannya ada di bentuk sayap.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "pak_darno"
+ },
+ "analogy": {
+  "source": "tangan di jendela mobil yang melaju",
+  "maps": [
+   {
+    "real": "udara di bawah sayap menekan lebih kuat",
+    "analogy": "angin menekan telapak tangan dari bawah"
+   },
+   {
+    "real": "sayap miring mengubah arah udara",
+    "analogy": "tangan dimiringkan mengubah arah angin"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Hampir semua orang pernah menjulurkan tangan dari mobil dan merasakan tangan terangkat."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "explain",
+   "shot": 5
+  },
+  {
+   "beat": "twist",
+   "shot": 6
+  },
+  {
+   "beat": "payoff",
+   "shot": 7
+  },
+  {
+   "beat": "cta",
+   "shot": 8
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Charon",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 180,
+  "est_seconds": 57,
+  "lumi_lines": 2,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "airport_svg",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.6
+    ],
+    "fy": [
+     0.4,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kenapa pesawat seberat puluhan mobil bisa terbang tinggi sekali di langit, ya?",
+     "caption": "pesawat berat bisa terbang",
+     "caption_adult": "Kenapa pesawat seberat puluhan mobil bisa terbang tinggi sekali di langit, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Pertanyaan bagus. Rahasianya bukan mesin, tapi bentuk sayap pesawatnya.",
+     "caption": "rahasianya di bentuk sayap",
+     "caption_adult": "lift berasal dari bentuk aerodinamis"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 620
+    },
+    {
+     "t": 1.8,
+     "expr": "neutral",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 622
+    }
+   ],
+   "props": [
+    {
+     "id": "airplane_jet",
+     "x": 360,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "puluhan mobil",
+     "on_line": 0,
+     "max_span": 3.2
+    },
+    {
+     "id": "wing_airfoil",
+     "x": 720,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "bentuk sayap",
+     "on_line": 0,
+     "max_span": 3.2
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "airport_svg",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.2,
+     "expr": "happy",
+     "pose": "float",
+     "x": 920,
+     "y": 1180,
+     "h": 236
+    },
+    {
+     "t": 2.8,
+     "expr": "happy",
+     "pose": "float",
+     "x": 840,
+     "y": 1180,
+     "h": 236
+    }
+   ],
+   "sfx": [
+    [
+     0.5,
+     "whoosh",
+     0.5
+    ]
+   ],
+   "est_seconds": 6.9,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Mesin mendorong pesawat maju di landasan panjang sampai kecepatannya jadi tinggi sekali.",
+     "caption": "mesin mendorong pesawat maju",
+     "caption_adult": "thrust menghasilkan kecepatan"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi mesin cuma membuat pesawat cepat, bukan membuatnya terangkat naik?",
+     "caption": "mesin bukan pengangkat",
+     "caption_adult": "thrust bukan lift"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 620
+    }
+   ],
+   "props": [
+    {
+     "id": "airplane_jet",
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "kecepatan tinggi",
+     "on_line": 0,
+     "max_span": 3.2
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "scene": "sky_flight",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 7.5,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Sayap pesawat melengkung. Udara di atas dan di bawah sayap tidak sama.",
+     "caption": "udara atas dan bawah beda",
+     "caption_adult": "perbedaan tekanan di sekitar sayap"
+    },
+    {
+     "who": "boca",
+     "text": "Udara di bawah menekan lebih kuat, jadi seluruh pesawat terdorong ke atas.",
+     "caption": "tekanan bawah mendorong naik",
+     "caption_adult": "lift dari perbedaan tekanan"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "wing_airfoil",
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "gaya angkat",
+     "on_line": 1,
+     "max_span": 3.2
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "on_line": 0,
+     "max_span": 3.7,
+     "card": {
+      "kind": "steps",
+      "title": "Bagaimana sayap mengangkat",
+      "accent": "#1F6F78",
+      "steps": [
+       "Bentuk sayap melengkung",
+       "Udara atas & bawah beda",
+       "Udara bawah mendorong naik"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "scene": "city_street",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba julurkan tanganmu sedikit keluar dari jendela mobil yang sedang melaju cepat.",
+     "caption": "tangan di jendela mobil",
+     "caption_adult": "analogi langsung lift"
+    },
+    {
+     "who": "pak_darno",
+     "text": "Tanganku ikut terangkat kalau telapak tanganku aku miringkan.",
+     "caption": "tangan terangkat saat miring",
+     "caption_adult": "pengalaman nyata gaya angkat"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610
+    }
+   ],
+   "props": [
+    {
+     "id": "hand_wind",
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "tangan miring",
+     "on_line": 0,
+     "max_span": 3.2
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "scene": "sky_flight",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 648
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 653
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 850,
+     "y": 1180,
+     "h": 236
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 7.2,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Tangan yang dimiringkan membuat udara di bawahnya mendorong tangan ke arah atas.",
+     "caption": "udara mendorong tangan ke atas",
+     "caption_adult": "sudut serang menghasilkan lift"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi sayap pesawat itu mirip tangan yang dimiringkan ke atas, ya?",
+     "caption": "sayap mirip tangan miring",
+     "caption_adult": "analogi valid secara kualitatif"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "hand_wind",
+     "x": 360,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "dorong ke atas",
+     "on_line": 0,
+     "max_span": 3.2
+    },
+    {
+     "id": "wing_airfoil",
+     "x": 720,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "sayap mirip tangan",
+     "on_line": 0,
+     "max_span": 3.2
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "scene": "sky_flight",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [
+    [
+     3.4,
+     "pop",
+     0.6
+    ]
+   ],
+   "est_seconds": 7.8,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Pesawat tidak lebih ringan dari udara. Dia terus dilawan oleh gaya angkat.",
+     "caption": "pesawat tidak lebih ringan",
+     "caption_adult": "lift melawan berat, bukan menghilangkannya"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau mesin mati, pesawat meluncur pelan dulu, bukan langsung jatuh ke bawah tanah.",
+     "caption": "mesin mati tetap meluncur",
+     "caption_adult": "gliding karena lift masih ada"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "glider_plane",
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "meluncur pelan",
+     "on_line": 0,
+     "max_span": 3.2
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "on_line": 0,
+     "target": "boca",
+     "dim": 0.58,
+     "cone": true,
+     "max_span": 3.7
+    },
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "on_line": 1,
+     "max_span": 3.7,
+     "card": {
+      "kind": "steps",
+      "title": "Kalau mesin mati?",
+      "accent": "#D7263D",
+      "steps": [
+       "Tidak langsung jatuh",
+       "Meluncur pelan dulu",
+       "Gaya angkat masih bekerja"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "scene": "mountain_sunset",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     2.0,
+     "pop",
+     0.6
+    ]
+   ],
+   "est_seconds": 7.8,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Berat pesawat tidak hilang sama sekali. Yang bertambah cuma gaya angkat dari udara.",
+     "caption": "berat tidak hilang",
+     "caption_adult": "lift bertambah, berat tetap"
+    },
+    {
+     "who": "pak_darno",
+     "text": "Jadi berat bukan halangan, asal ada udara dan kecepatan yang cukup tinggi.",
+     "caption": "berat bukan halangan",
+     "caption_adult": "syarat lift: udara dan kecepatan"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 620
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 622
+    }
+   ],
+   "props": [
+    {
+     "id": "lift_vs_weight",
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "berat tetap ada",
+     "on_line": 0,
+     "max_span": 3.2
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "on_line": 1,
+     "max_span": 3.7,
+     "card": {
+      "kind": "steps",
+      "title": "Syarat pesawat terbang",
+      "accent": "#1F6F78",
+      "steps": [
+       "Berat pesawat tidak hilang",
+       "Gaya angkat dari udara bertambah",
+       "Butuh udara & kecepatan tinggi"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "scene": "airport_svg",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 880,
+     "y": 1050,
+     "h": 240
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba perhatikan sayap pesawat lain kali. Bentuknya hampir selalu sama persis, kan?",
+     "caption": "bentuk sayap selalu sama",
+     "caption_adult": "desain standar industri"
+    },
+    {
+     "who": "boca",
+     "text": "Menurutmu, kenapa bagian atas sayap sengaja dibuat melengkung?",
+     "caption": "kenapa atas sayap melengkung",
+     "caption_adult": "ajakan mengamati"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 620
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 622
+    }
+   ],
+   "props": [
+    {
+     "id": "wing_airfoil",
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true,
+     "badge": "bagian atas melengkung",
+     "on_line": 0,
+     "max_span": 3.2
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "airport_svg",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "sky_flight",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_street",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "mountain_sunset",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_street",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "pak_darno",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Charon",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Tamu pak_darno muncul di 4 shot, bicara 3 baris. Scene v4.4: airport_svg, sky_flight, city_street, mountain_sunset (semua SVG).",
+ "scene_family": "aviation_sky",
+ "motion_motif": "upward_lift_and_airflow"
+}

@@ -1,0 +1,936 @@
+{
+ "id": "BOCA-D22",
+ "day": 22,
+ "title": "Kenapa harga barang bisa naik?",
+ "series": "BBU",
+ "duration_target": 60,
+ "facts_status": "verified",
+ "cta": "Barang apa yang harganya naik?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "market_money",
+ "motion_motif": "supply_demand_balance",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Kore",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 180,
+  "est_seconds": 57,
+  "lumi_lines": 4,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 9,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "bu_ratna"
+ },
+ "analogy": {
+  "source": "tiket bus yang lebih mahal saat bus penuh",
+  "maps": [
+   {
+    "real": "harga naik saat banyak orang beli",
+    "analogy": "tiket lebih mahal saat bus penuh"
+   },
+   {
+    "real": "permintaan naik, barang jadi terbatas",
+    "analogy": "penumpang banyak, kursi terbatas"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Tiket bus dan kereta yang naik saat ramai adalah pengalaman sehari-hari semua orang."
+ },
+ "publish": {
+  "title": "BOCA — Kenapa harga barang bisa naik?",
+  "description": "Harga dapat naik karena perubahan permintaan, pasokan, biaya produksi, dan faktor ekonomi lain.\n\nPasar yang berubah dari ramai dengan stok banyak menjadi ramai dengan stok terbatas.\n\nBarang apa yang harganya naik?\n\n#uang #faktaunik #keluargabocah #ideinaja",
+  "hashtags": [
+   "#uang",
+   "#faktaunik",
+   "#keluargabocah",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kenapa harga barang naik terus, padahal barangnya sama saja, ya?",
+     "caption": "harga naik, barang sama",
+     "caption_adult": "Kenapa harga barang naik terus, padahal barangnya sama saja, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Barangnya sama saja kok. Yang berubah adalah daya beli kita semua.",
+     "caption": "barang sama, uang yang berubah",
+     "caption_adult": "koreksi asumsi"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 2,
+   "scene": "money_print",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau uang yang beredar bertambah banyak, harga barang bisa ikut terdorong naik.",
+     "caption": "uang dicetak lebih banyak",
+     "caption_adult": "hubungan uang dan permintaan"
+    },
+    {
+     "who": "lumi",
+     "text": "Kalau barangnya terbatas, berarti harganya naik dong, ya?",
+     "caption": "barang terbatas berarti harga naik",
+     "caption_adult": "hipotesis"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 3,
+   "scene": "city_street",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Betul. Ini yang disebut permintaan naik, tapi barangnya tetap terbatas.",
+     "caption": "permintaan naik, barang terbatas",
+     "caption_adult": "istilah ekonomi"
+    },
+    {
+     "who": "boca",
+     "text": "Jadi banyak orang berebut barang yang sama, dan harganya pun ikut naik.",
+     "caption": "banyak orang berebut barang sama",
+     "caption_adult": "mekanisme harga"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "coin_stack",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 4,
+   "scene": "playground_clock",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan tiket bus yang lebih mahal kalau busnya penuh.",
+     "caption": "tiket bus lebih mahal saat penuh",
+     "caption_adult": "analogi"
+    },
+    {
+     "who": "lumi",
+     "text": "Penumpang makin banyak, kursinya tetap, jadi tiketnya jadi mahal.",
+     "caption": "penumpang banyak, kursi tetap",
+     "caption_adult": "pemetaan analogi"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 5.7
+  },
+  {
+   "n": 5,
+   "scene": "garden",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jadi harga naik bukan karena penjualnya rakus.",
+     "caption": "bukan karena penjual rakus",
+     "caption_adult": "koreksi asumsi"
+    },
+    {
+     "who": "boca",
+     "text": "Kadang karena banyak orang butuh hal yang sama pada waktu yang sama.",
+     "caption": "banyak orang butuh hal yang sama",
+     "caption_adult": "permintaan bersama"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 6,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "bu_ratna",
+     "text": "Jadi kalau barangnya dikit, harganya pasti naik semua, ya?",
+     "caption": "barang dikit harga pasti naik",
+     "caption_adult": "pertanyaan"
+    },
+    {
+     "who": "lumi",
+     "text": "Dan kalau barangnya banyak, harganya turun lagi, ya?",
+     "caption": "barang banyak harga turun",
+     "caption_adult": "klarifikasi kebalikan"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 5.4
+  },
+  {
+   "n": 7,
+   "scene": "kitchen",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Di dapur, satu kilogram beras pun harganya ikut biaya transportasinya yang panjang.",
+     "caption": "harga beras ikut biaya transport",
+     "caption_adult": "biaya logistik"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi ongkos jalan ikut menentukan harga di meja kita semua.",
+     "caption": "ongkos jalan menentukan harga",
+     "caption_adult": "pemetaan biaya ke harga"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 8,
+   "scene": "park_sunleft",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Dan harga juga naik karena ongkos angkut dan bahan baku ikut naik.",
+     "caption": "ongkos angkut dan bahan baku naik",
+     "caption_adult": "biaya produksi"
+    },
+    {
+     "who": "boca",
+     "text": "Jadi harga naik bukan karena satu orang saja.",
+     "caption": "bukan karena satu orang saja",
+     "caption_adult": "ringkasan multi-faktor"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 9,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba perhatikan harga barang yang paling sering kamu beli di warung.",
+     "caption": "perhatikan harga barang favorit",
+     "caption_adult": "tindakan praktis"
+    },
+    {
+     "who": "bu_ratna",
+     "text": "Beras dan minyak. Dua-duanya naik bulan ini juga, ya?",
+     "caption": "beras dan minyak naik",
+     "caption_adult": "contoh nyata"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "bu_ratna",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.3
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "Harga naik bisa karena permintaan naik, biaya naik, dan uang beredar bertambah; bukan satu sebab tunggal. Tanpa angka. Rujukan: Bank Indonesia (inflasi), Economics Help.",
+ "approved_at": "2026-11-15T08:16:40"
+}

@@ -1,0 +1,6 @@
+credentials.json
+state.json
+publish_log.json
+cache/
+logs/
+*.lock

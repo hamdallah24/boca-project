@@ -1,0 +1,840 @@
+{
+ "id": "BOCA-D07",
+ "day": 7,
+ "series": "KYB",
+ "title": "Kenapa kita bisa cegukan?",
+ "duration_target": 45,
+ "facts_status": "pending",
+ "logline": "Ardi cegukan padahal sedang diam. Boca menjelaskan diafragma yang berkontraksi tiba-tiba lewat analogi pompa sepeda.",
+ "hook": {
+  "pattern": "H1",
+  "claim": "Kenapa kita bisa cegukan tiba-tiba padahal sedang duduk diam saja di rumah?",
+  "gap": "Tidak ada yang menyuruh otot kita bergerak.",
+  "promise": "Itu kejutan kecil dari diafragma.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "ardi"
+ },
+ "analogy": {
+  "source": "pompa sepeda yang ditekan mendadak",
+  "maps": [
+   {
+    "real": "diafragma berkontraksi tiba-tiba",
+    "analogy": "pompa ditekan sekali dengan cepat"
+   },
+   {
+    "real": "pita suara menutup dan berbunyi hik",
+    "analogy": "selang pompa tersumbat sebentar"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Pompa sepeda ada di hampir setiap rumah dan bunyinya langsung dikenali."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "twist",
+   "shot": 5
+  },
+  {
+   "beat": "payoff",
+   "shot": 6
+  },
+  {
+   "beat": "cta",
+   "shot": 7
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Fenrir",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 135,
+  "est_seconds": 43,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "classroom",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 6.9,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kenapa kita bisa cegukan tiba-tiba padahal sedang duduk diam saja di rumah?",
+     "caption": "cegukan saat sedang diam",
+     "caption_adult": "Kenapa kita bisa cegukan tiba-tiba padahal sedang duduk diam saja di rumah?"
+    },
+    {
+     "who": "boca",
+     "text": "Cegukan itu kejutan kecil di dalam perut kita. Bukan penyakit.",
+     "caption": "cegukan bukan penyakit",
+     "caption_adult": "menenangkan penonton"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.8,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "classroom",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Di bawah paru-paru ada otot besar yang namanya diafragma.",
+     "caption": "otot diafragma di bawah paru",
+     "caption_adult": "pengenalan diafragma"
+    },
+    {
+     "who": "ardi",
+     "text": "Otot itu yang bikin kita bernapas tanpa perlu mikir, ya?",
+     "caption": "bernapas tanpa mikir",
+     "caption_adult": "otot involunter"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.2,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 3,
+   "scene": "body_inside",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 648
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 653
+    },
+    {
+     "t": 4.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 850,
+     "y": 1180,
+     "h": 236
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Kadang otot itu berkontraksi tiba-tiba, hanya sekali, dengan cepat.",
+     "caption": "otot berkontraksi mendadak",
+     "caption_adult": "spasme diafragma"
+    },
+    {
+     "who": "boca",
+     "text": "Udara masuk mendadak, lalu pita suara menutup. Bunyinya jadi hik.",
+     "caption": "pita suara menutup, bunyi hik",
+     "caption_adult": "mekanisme suara cegukan"
+    }
+   ],
+   "guest": [],
+   "layouts": [
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "card": {
+      "kind": "steps",
+      "title": "Apa yang terjadi saat cegukan",
+      "accent": "#D7263D",
+      "steps": [
+       "Diafragma berkontraksi",
+       "Udara terhenti",
+       "Cegukan muncul"
+      ]
+     },
+     "on_line": 0,
+     "max_span": 3.7
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 4,
+   "scene": "kitchen",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "boing",
+     0.7
+    ]
+   ],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan pompa sepeda yang kamu tekan sekali saja dengan kuat.",
+     "caption": "pompa ditekan sekali",
+     "caption_adult": "analogi kontraksi mendadak"
+    },
+    {
+     "who": "boca",
+     "text": "Selangnya tersumbat sebentar, jadi bunyinya terdengar agak beda.",
+     "caption": "selang tersumbat sebentar",
+     "caption_adult": "analogi pita suara menutup"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "clock",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "scene": "body_inside",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Pemicunya bisa makan cepat, minum soda, atau perutnya kembung.",
+     "caption": "pemicu: makan cepat, soda",
+     "caption_adult": "daftar pemicu umum"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi cegukan itu otot yang kaget, bukan tanda sakit?",
+     "caption": "otot kaget, bukan sakit",
+     "caption_adult": "klarifikasi"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 6,
+   "scene": "park_evening",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.6
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Biasanya hilang sendiri dalam beberapa menit. Coba tarik napas pelan.",
+     "caption": "hilang sendiri beberapa menit",
+     "caption_adult": "penanganan sederhana"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau lebih dari dua hari, baru perlu ke dokter.",
+     "caption": "lebih dua hari ke dokter",
+     "caption_adult": "red flag medis"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 7,
+   "scene": "classroom",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 880,
+     "y": 1050,
+     "h": 240
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba tahan napas sebentar, lalu minum air pelan-pelan lagi.",
+     "caption": "tahan napas lalu minum",
+     "caption_adult": "tips praktis"
+    },
+    {
+     "who": "ardi",
+     "text": "Tadi aku coba, dan cegukannya langsung hilang. Kok bisa, ya?",
+     "caption": "cegukan hilang setelah dicoba",
+     "caption_adult": "resolusi cerita"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "ardi",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "classroom",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "body_inside",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "kitchen",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "park_evening",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "ardi",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Fenrir",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Tamu ardi muncul di 4 shot, bicara 3 baris. Semua scene sudah ada.",
+ "scene_family": "body_home",
+ "motion_motif": "diaphragm_pulse_and_breath"
+}

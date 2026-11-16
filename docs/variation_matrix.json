@@ -1,0 +1,552 @@
+{
+  "01": {
+    "title": "Kenapa uang bisa habis padahal nggak beli apa-apa?",
+    "scenes": [
+      "park",
+      "park",
+      "park",
+      "park",
+      "park_evening",
+      "park_evening"
+    ],
+    "motif": "M1",
+    "cameras": [
+      "C7",
+      "C7",
+      "C7",
+      "C7",
+      "C7",
+      "C7"
+    ],
+    "note": "SUDAH TAYANG - jangan diubah"
+  },
+  "02": {
+    "title": "Kenapa langit warnanya biru?",
+    "scenes": [
+      "park",
+      "space",
+      "prism",
+      "atmosphere",
+      "sky",
+      "sunset",
+      "park_sunleft",
+      "park_evening"
+    ],
+    "motif": "M1",
+    "cameras": [
+      "C7",
+      "C7",
+      "C7",
+      "C7",
+      "C7",
+      "C7",
+      "C7",
+      "C7"
+    ],
+    "note": "SUDAH DIREKAM - jangan diubah"
+  },
+  "03": {
+    "title": "Kenapa kita harus tidur?",
+    "scenes": [
+      "bedroom_night",
+      "bedroom",
+      "body_inside",
+      "neuron_city",
+      "bedroom_night"
+    ],
+    "motif": "M3",
+    "cameras": [
+      "C7",
+      "C1",
+      "C4",
+      "C7",
+      "C1"
+    ]
+  },
+  "04": {
+    "title": "Kenapa waktu terasa cepat kalau sedang senang?",
+    "scenes": [
+      "playground_clock",
+      "sky",
+      "sunset",
+      "park_evening",
+      "playground_clock"
+    ],
+    "motif": "M4",
+    "cameras": [
+      "C9",
+      "C3",
+      "C6",
+      "C9",
+      "C3"
+    ]
+  },
+  "05": {
+    "title": "Kenapa pesawat yang berat bisa terbang?",
+    "scenes": [
+      "airport",
+      "sky",
+      "atmosphere",
+      "sunset",
+      "airport"
+    ],
+    "motif": "M5",
+    "cameras": [
+      "C2",
+      "C5",
+      "C8",
+      "C2",
+      "C5"
+    ]
+  },
+  "06": {
+    "title": "Kenapa laut rasanya asin?",
+    "scenes": [
+      "beach",
+      "underwater",
+      "market",
+      "sunset",
+      "beach"
+    ],
+    "motif": "M6",
+    "cameras": [
+      "C4",
+      "C7",
+      "C1",
+      "C4",
+      "C7"
+    ]
+  },
+  "07": {
+    "title": "Kenapa kita bisa cegukan?",
+    "scenes": [
+      "body_inside",
+      "kitchen",
+      "park",
+      "park_evening",
+      "body_inside"
+    ],
+    "motif": "M7",
+    "cameras": [
+      "C6",
+      "C9",
+      "C3",
+      "C6",
+      "C9"
+    ]
+  },
+  "08": {
+    "title": "Internet itu sebenarnya tinggal di mana?",
+    "scenes": [
+      "data_center",
+      "house_cutaway",
+      "underwater",
+      "bedroom",
+      "data_center"
+    ],
+    "motif": "M8",
+    "cameras": [
+      "C8",
+      "C2",
+      "C5",
+      "C8",
+      "C2"
+    ]
+  },
+  "09": {
+    "title": "Bagaimana HP bisa tahu lokasi kita?",
+    "scenes": [
+      "city_top",
+      "phone_inside",
+      "space",
+      "data_center",
+      "city_top"
+    ],
+    "motif": "M1",
+    "cameras": [
+      "C1",
+      "C4",
+      "C7",
+      "C1",
+      "C4"
+    ]
+  },
+  "10": {
+    "title": "Kenapa baterai HP bisa habis?",
+    "scenes": [
+      "phone_inside",
+      "data_center",
+      "city_street",
+      "body_inside",
+      "city_street"
+    ],
+    "motif": "M2",
+    "cameras": [
+      "C3",
+      "C6",
+      "C9",
+      "C3",
+      "C6"
+    ]
+  },
+  "11": {
+    "title": "Bagaimana AI bisa menjawab pertanyaan manusia?",
+    "scenes": [
+      "neuron_city",
+      "classroom",
+      "city_top",
+      "park",
+      "neuron_city"
+    ],
+    "motif": "M3",
+    "cameras": [
+      "C5",
+      "C8",
+      "C2",
+      "C5",
+      "C8"
+    ]
+  },
+  "12": {
+    "title": "Kenapa Wi-Fi bisa menembus tembok?",
+    "scenes": [
+      "house_cutaway",
+      "classroom",
+      "city_street",
+      "park",
+      "house_cutaway"
+    ],
+    "motif": "M4",
+    "cameras": [
+      "C7",
+      "C1",
+      "C4",
+      "C7",
+      "C1"
+    ]
+  },
+  "13": {
+    "title": "Bagaimana uang digital berpindah?",
+    "scenes": [
+      "market",
+      "phone_inside",
+      "bank",
+      "city_street",
+      "market"
+    ],
+    "motif": "M5",
+    "cameras": [
+      "C9",
+      "C3",
+      "C6",
+      "C9",
+      "C3"
+    ]
+  },
+  "14": {
+    "title": "Apa yang terjadi ketika kita menghapus foto?",
+    "scenes": [
+      "phone_inside",
+      "data_center",
+      "bedroom",
+      "park",
+      "phone_inside"
+    ],
+    "motif": "M6",
+    "cameras": [
+      "C2",
+      "C5",
+      "C8",
+      "C2",
+      "C5"
+    ]
+  },
+  "15": {
+    "title": "Kenapa jantung nggak pernah berhenti bekerja?",
+    "scenes": [
+      "body_inside",
+      "neuron_city",
+      "sunset",
+      "park_sunleft",
+      "body_inside"
+    ],
+    "motif": "M7",
+    "cameras": [
+      "C4",
+      "C7",
+      "C1",
+      "C4",
+      "C7"
+    ]
+  },
+  "16": {
+    "title": "Kenapa kita bisa bermimpi?",
+    "scenes": [
+      "bedroom_night",
+      "neuron_city",
+      "galaxy",
+      "bedroom",
+      "bedroom_night"
+    ],
+    "motif": "M8",
+    "cameras": [
+      "C6",
+      "C9",
+      "C3",
+      "C6",
+      "C9"
+    ]
+  },
+  "17": {
+    "title": "Kenapa perut berbunyi saat lapar?",
+    "scenes": [
+      "body_inside",
+      "kitchen",
+      "market",
+      "park",
+      "body_inside"
+    ],
+    "motif": "M1",
+    "cameras": [
+      "C8",
+      "C2",
+      "C5",
+      "C8",
+      "C2"
+    ]
+  },
+  "18": {
+    "title": "Bagaimana otak menyimpan ingatan?",
+    "scenes": [
+      "neuron_city",
+      "classroom",
+      "city_top",
+      "body_inside",
+      "neuron_city"
+    ],
+    "motif": "M2",
+    "cameras": [
+      "C1",
+      "C4",
+      "C7",
+      "C1",
+      "C4"
+    ]
+  },
+  "19": {
+    "title": "Kenapa kita bisa merasa takut?",
+    "scenes": [
+      "dark_forest",
+      "park_sunleft",
+      "sunset",
+      "park",
+      "dark_forest"
+    ],
+    "motif": "M3",
+    "cameras": [
+      "C3",
+      "C6",
+      "C9",
+      "C3",
+      "C6"
+    ]
+  },
+  "20": {
+    "title": "Kenapa es bisa mengapung di air?",
+    "scenes": [
+      "lake_ice",
+      "underwater",
+      "sky",
+      "sunset",
+      "lake_ice"
+    ],
+    "motif": "M4",
+    "cameras": [
+      "C5",
+      "C8",
+      "C2",
+      "C5",
+      "C8"
+    ]
+  },
+  "21": {
+    "title": "Bagaimana hujan bisa turun dari langit?",
+    "scenes": [
+      "rain_cloud",
+      "underwater",
+      "sky",
+      "beach",
+      "rain_cloud"
+    ],
+    "motif": "M5",
+    "cameras": [
+      "C7",
+      "C1",
+      "C4",
+      "C7",
+      "C1"
+    ]
+  },
+  "22": {
+    "title": "Kenapa harga barang bisa naik?",
+    "scenes": [
+      "market",
+      "city_street",
+      "bank",
+      "kitchen",
+      "market"
+    ],
+    "motif": "M6",
+    "cameras": [
+      "C9",
+      "C3",
+      "C6",
+      "C9",
+      "C3"
+    ]
+  },
+  "23": {
+    "title": "Kenapa negara bisa punya utang?",
+    "scenes": [
+      "city_top",
+      "city_street",
+      "bank",
+      "money_print",
+      "city_top"
+    ],
+    "motif": "M7",
+    "cameras": [
+      "C2",
+      "C5",
+      "C8",
+      "C2",
+      "C5"
+    ]
+  },
+  "24": {
+    "title": "Kenapa bank mau meminjamkan uang?",
+    "scenes": [
+      "bank",
+      "phone_inside",
+      "market",
+      "city_top",
+      "phone_inside"
+    ],
+    "motif": "M8",
+    "cameras": [
+      "C4",
+      "C7",
+      "C1",
+      "C4",
+      "C7"
+    ]
+  },
+  "25": {
+    "title": "Kenapa orang kaya bisa semakin kaya?",
+    "scenes": [
+      "garden",
+      "market",
+      "sunset",
+      "park",
+      "garden"
+    ],
+    "motif": "M1",
+    "cameras": [
+      "C6",
+      "C9",
+      "C3",
+      "C6",
+      "C9"
+    ]
+  },
+  "26": {
+    "title": "Kenapa uang harus dicetak oleh negara?",
+    "scenes": [
+      "money_print",
+      "city_street",
+      "stock_board",
+      "park",
+      "money_print"
+    ],
+    "motif": "M2",
+    "cameras": [
+      "C8",
+      "C2",
+      "C5",
+      "C8",
+      "C2"
+    ]
+  },
+  "27": {
+    "title": "Apa yang membuat harga saham naik turun?",
+    "scenes": [
+      "stock_board",
+      "data_center",
+      "city_top",
+      "phone_inside",
+      "stock_board"
+    ],
+    "motif": "M3",
+    "cameras": [
+      "C1",
+      "C4",
+      "C7",
+      "C1",
+      "C4"
+    ]
+  },
+  "28": {
+    "title": "Kenapa kita harus membayar pajak?",
+    "scenes": [
+      "city_street",
+      "city_top",
+      "classroom",
+      "sunset",
+      "city_street"
+    ],
+    "motif": "M4",
+    "cameras": [
+      "C3",
+      "C6",
+      "C9",
+      "C3",
+      "C6"
+    ]
+  },
+  "29": {
+    "title": "Apa yang terjadi kalau Bumi tiba-tiba berhenti berputar?",
+    "scenes": [
+      "space",
+      "galaxy",
+      "city_top",
+      "park",
+      "space"
+    ],
+    "motif": "M5",
+    "cameras": [
+      "C5",
+      "C8",
+      "C2",
+      "C5",
+      "C8"
+    ]
+  },
+  "30": {
+    "title": "Apakah alam semesta punya ujung?",
+    "scenes": [
+      "galaxy",
+      "space",
+      "park_evening",
+      "sky",
+      "park_evening"
+    ],
+    "motif": "M6",
+    "cameras": [
+      "C7",
+      "C1",
+      "C4",
+      "C7",
+      "C1"
+    ]
+  }
+}

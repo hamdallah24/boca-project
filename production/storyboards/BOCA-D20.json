@@ -1,0 +1,824 @@
+{
+ "id": "BOCA-D20",
+ "day": 20,
+ "series": "BMT",
+ "title": "Kenapa es bisa mengapung di air?",
+ "duration_target": 45,
+ "facts_status": "pending",
+ "logline": "Pak Darno heran es batu ngambang di atas air. Boca menjelaskan rongga udara kecil yang membuat es lebih ringan.",
+ "hook": {
+  "pattern": "H3",
+  "claim": "Kok es batu bisa mengapung di atas air?",
+  "gap": "Bukannya padat harus lebih berat dari cair?",
+  "promise": "Ada rongga kecil berisi udara di dalamnya.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "pak_darno"
+ },
+ "analogy": {
+  "source": "penonton yang berdiri berjarak di lapangan yang sama",
+  "maps": [
+   {
+    "real": "molekul air tersusun berjarak saat membeku",
+    "analogy": "penonton berdiri berjarak di lapangan"
+   },
+   {
+    "real": "es memakai ruang lebih besar untuk berat yang sama",
+    "analogy": "jumlah orang sama tapi area yang dipakai lebih luas"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Semua orang pernah melihat kerumunan: jumlahnya sama, tapi area yang dipakai bisa jauh berbeda."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "twist",
+   "shot": 5
+  },
+  {
+   "beat": "payoff",
+   "shot": 6
+  },
+  {
+   "beat": "cta",
+   "shot": 7
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Charon",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 135,
+  "est_seconds": 43,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "lake_ice",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kok es batu bisa mengapung di atas air?",
+     "caption": "es mengapung di air",
+     "caption_adult": "Kok es batu bisa mengapung di atas air?"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau batu biasa, kan langsung tenggelam. Es ini kelihatan ngambang aja.",
+     "caption": "batu biasa tenggelam, es ngambang",
+     "caption_adult": "kontras batu dan es"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "kitchen",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba lihat es di secangkir minum. Esnya ngambang di atas, kan?",
+     "caption": "es di secangkir ngambang",
+     "caption_adult": "pengamatan sehari-hari"
+    },
+    {
+     "who": "pak_darno",
+     "text": "Iya, ngambang. Airnya yang naik atau esnya yang lebih ringan?",
+     "caption": "airnya naik atau esnya ringan",
+     "caption_adult": "dua hipotesis"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 3,
+   "scene": "city_street",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Esnya yang lebih ringan dari air, makanya bisa ngambang.",
+     "caption": "es lebih ringan dari air",
+     "caption_adult": "prinsip mengapung"
+    },
+    {
+     "who": "boca",
+     "text": "Wujud padat bukan berarti selalu lebih berat dari cairan.",
+     "caption": "padat tidak selalu lebih berat",
+     "caption_adult": "koreksi generalisasi"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "bulb",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "scene": "classroom",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan penonton yang berdiri berjarak di lapangan yang luas.",
+     "caption": "penonton berdiri berjarak",
+     "caption_adult": "analogi kerumunan"
+    },
+    {
+     "who": "boca",
+     "text": "Jumlah orangnya sama, tapi areanya jadi jauh lebih luas.",
+     "caption": "jumlah sama, area lebih luas",
+     "caption_adult": "pemetaan kerapatan"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 5,
+   "scene": "park_evening",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Molekul air juga begitu saat membeku: menyusun diri saling berjarak.",
+     "caption": "molekul menyusun diri berjarak",
+     "caption_adult": "kisi kristal es"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi es seperti penonton yang berdiri berjarak, ya?",
+     "caption": "es seperti penonton berjarak",
+     "caption_adult": "klarifikasi analogi"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 6,
+   "scene": "classroom",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.9,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Susunan renggang itu membuat es memakan ruang lebih banyak.",
+     "caption": "es memakai ruang lebih banyak",
+     "caption_adult": "konsekuensi susunan"
+    },
+    {
+     "who": "boca",
+     "text": "Beratnya sama, tapi ruang yang dipakai lebih banyak, jadi lebih ringan per volume.",
+     "caption": "berat sama, ruang lebih besar",
+     "caption_adult": "definisi massa jenis"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 7,
+   "scene": "lake_ice",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba masukkan es di gelas, lalu lihat bagian yang mengapung.",
+     "caption": "masukkan es, lihat bagian mengapung",
+     "caption_adult": "tindakan praktis"
+    },
+    {
+     "who": "pak_darno",
+     "text": "Rupanya susunan molekulnya yang bikin es jadi lebih ringan.",
+     "caption": "susunan molekul bikin ringan",
+     "caption_adult": "kesimpulan penonton"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "pak_darno",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "lake_ice",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "kitchen",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_street",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "classroom",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "park_evening",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "pak_darno",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Charon",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Tamu pak_darno bicara 3 baris. Semua scene sudah ada.",
+ "scene_family": "water_lake",
+ "motion_motif": "density_float_and_layers"
+}

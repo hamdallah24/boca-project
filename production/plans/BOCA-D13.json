@@ -1,0 +1,845 @@
+{
+ "id": "BOCA-D13",
+ "day": 13,
+ "title": "Bagaimana uang digital berpindah?",
+ "series": "BMM",
+ "duration_target": 60,
+ "facts_status": "verified",
+ "cta": "Lebih suka cash atau QR?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "money_flow",
+ "motion_motif": "coin_transfer_and_ledger",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Kore",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 184,
+  "est_seconds": 58,
+  "lumi_lines": 2,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "bu_ratna"
+ },
+ "analogy": {
+  "source": "kartu member toko dengan saldo",
+  "maps": [
+   {
+    "real": "uang digital punya catatan di server",
+    "analogy": "kartu member mencatat sisa saldo"
+   },
+   {
+    "real": "uang pindah saat server memindahkan catatannya",
+    "analogy": "saldo berpindah saat kasir mengurangi"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Kartu member dan saldo poin sangat dikenal di toko sehari-hari."
+ },
+ "publish": {
+  "title": "BOCA — Bagaimana uang digital berpindah?",
+  "description": "Pembayaran digital mengirim instruksi transaksi melalui sistem pembayaran dan lembaga keuangan yang memproses serta mencatat perpindahan saldo.\n\nToko, HP, jaringan pembayaran, dan bank.\n\nLebih suka cash atau QR?\n\n#teknologi #faktaunik #edukasicuma #ideinaja",
+  "hashtags": [
+   "#teknologi",
+   "#faktaunik",
+   "#edukasicuma",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "bank",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Uang di layar HP itu beneran, atau cuma angka?",
+     "caption": "uang di layar beneran?",
+     "caption_adult": "uang di layar HP itu beneran atau cuma angka"
+    },
+    {
+     "who": "boca",
+     "text": "Beneran, tapi bentuknya berubah. Duit kertas jadi catatan angka di server.",
+     "caption": "duit kertas jadi catatan angka",
+     "caption_adult": "uang fiat berubah jadi catatan"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 2,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "lumi",
+     "text": "Pas bayar di kasir, angkanya cuma tinggal berkurang sedikit saja, ya?",
+     "caption": "di kasir angkanya tinggal berkurang",
+     "caption_adult": "transaksi pembayaran"
+    },
+    {
+     "who": "boca",
+     "text": "Betul. Yang berubah cuma catatan pembayarannya yang berpindah ke kasir saja.",
+     "caption": "catatan pembayaran pindah ke kasir",
+     "caption_adult": "perpindahan saldo"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 3,
+   "scene": "phone_inside",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Uangnya sendiri tidak bepergian jauh, yang jalan cuma catatan dan pesan.",
+     "caption": "yang jalan cuma catatan dan pesan",
+     "caption_adult": "bukan kirim fisik"
+    },
+    {
+     "who": "boca",
+     "text": "Pesannya masuk ke bank, lalu bank menggeser saldonya ke merchant hari itu juga.",
+     "caption": "bank menggeser saldo ke merchant",
+     "caption_adult": "kliring dan settlement"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "coin_stack",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 7.5
+  },
+  {
+   "n": 4,
+   "scene": "money_print",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan kartu member toko dengan catatan saldo yang diperbarui tiap bayar.",
+     "caption": "kartu member dengan saldo terperbarui",
+     "caption_adult": "analogi saldo"
+    },
+    {
+     "who": "boca",
+     "text": "Bayar sedikit saja, saldonya berkurang, dan catatannya langsung pindah ke kasir.",
+     "caption": "saldony berkurang, catatan pindah ke kasir",
+     "caption_adult": "alur analogi"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 5,
+   "scene": "data_center",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau server banknya mati, uangnya bukan hilang, tapi catatannya tertahan dulu.",
+     "caption": "bukan hilang, catatannya tertahan",
+     "caption_adult": "resiliensi sistem"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi orangnya tidak kehilangan duit sama sekali, cuma catatannya yang telat datang?",
+     "caption": "cuma catatannya yang telat",
+     "caption_adult": "klarifikasi risiko"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.2
+  },
+  {
+   "n": 6,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "bu_ratna",
+     "text": "Jadi tiap rupiah yang kita bayar itu ada jejaknya di mana, ya?",
+     "caption": "tiap rupiah ada jejaknya",
+     "caption_adult": "penelusuran transaksi"
+    },
+    {
+     "who": "boca",
+     "text": "Iya. Tiap pembayaran ada catatan di server bank dan merchant, tersimpan rapi sekali.",
+     "caption": "ada catatan di bank dan merchant",
+     "caption_adult": "audit trail"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 7,
+   "scene": "phone_inside",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Dan catatan itu juga yang dipakai buat sewakan, pinjaman, sampai pajak negara kita.",
+     "caption": "catatan dipakai untuk sewakan dan pajak",
+     "caption_adult": "data sebagai basis kebijakan"
+    },
+    {
+     "who": "boca",
+     "text": "Jadi nominal di layar itu hasil dari ribuan catatan di belakang layar.",
+     "caption": "nominal di layar hasil ribuan catatan",
+     "caption_adult": "rekonsiliasi"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 8,
+   "scene": "bank",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.7
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba cek mutasi rekeningmu, satu rupiah pun punya jejaknya sendiri.",
+     "caption": "cek mutasi, satu rupiah pun punya jejak",
+     "caption_adult": "memeriksa riwayat transaksi"
+    },
+    {
+     "who": "bu_ratna",
+     "text": "Berarti duit digital itu sebenarnya tetap punya jejak yang bisa dilacak juga, ya?",
+     "caption": "duit digital tetap punya jejak",
+     "caption_adult": "kesimpulan penonton"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "bu_ratna",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 7.2
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "Uang digital = catatan saldo di sistem bank; server bermasalah menahan akses, bukan menghapus uang. Tanpa angka. Rujukan: penjelasan Bank Indonesia (sistem pembayaran).",
+ "approved_at": "2026-11-15T08:16:40"
+}

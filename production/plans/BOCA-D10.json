@@ -1,0 +1,761 @@
+{
+ "id": "BOCA-D10",
+ "day": 10,
+ "title": "Kenapa baterai HP bisa habis?",
+ "series": "BMM",
+ "duration_target": 45,
+ "facts_status": "verified",
+ "cta": "Baterai HP kamu sekarang berapa persen?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "phone_life",
+ "motion_motif": "energy_drain_and_charge",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Charon",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 136,
+  "est_seconds": 43,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "pak_darno"
+ },
+ "analogy": {
+  "source": "tangki bensin motor",
+  "maps": [
+   {
+    "real": "baterai menyimpan energi lalu dikuras saat HP dipakai",
+    "analogy": "tangki menyimpan bensin lalu terkuras saat motor jalan"
+   },
+   {
+    "real": "baterai bisa diisi lagi dari listrik",
+    "analogy": "tangki bisa diisi lagi di pom bensin"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Motor dan tangki bensin dikenal semua orang, termasuk cara mengisinya kembali."
+ },
+ "publish": {
+  "title": "BOCA — Kenapa baterai HP bisa habis?",
+  "description": "Baterai menyimpan energi kimia yang diubah menjadi energi listrik untuk menjalankan komponen HP.\n\nDunia mini di dalam HP dengan baterai sebagai pusat energi.\n\nBaterai HP kamu sekarang berapa persen?\n\n#teknologi #faktaunik #edukasicuma #ideinaja",
+  "hashtags": [
+   "#teknologi",
+   "#faktaunik",
+   "#edukasicuma",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "phone_inside",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kok baterai HP bisa habis padahal cuma baca pesan, ya?",
+     "caption": "baterai habis padahal ringan",
+     "caption_adult": "Kok baterai HP bisa habis padahal cuma baca pesan, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Karena HP itu kerja terus di belakang layar, walau layar cuma menyala.",
+     "caption": "HP kerja terus walau layar sepi",
+     "caption_adult": "konsumsi daya latar belakang"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 2,
+   "scene": "kitchen",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Baterai itu seperti tangki bensin motor, isinya energi buat menjalankan mesin.",
+     "caption": "baterai seperti tangki bensin",
+     "caption_adult": "penyimpanan energi"
+    },
+    {
+     "who": "pak_darno",
+     "text": "Berarti HP itu seperti motor yang terus menyala sepanjang hari?",
+     "caption": "HP seperti motor menyala terus",
+     "caption_adult": "analogi perangkat"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 3,
+   "scene": "phone_inside",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Baterai hanya bisa menyimpan energi, tak bisa membuatnya sendiri.",
+     "caption": "baterai hanya menyimpan energi",
+     "caption_adult": "sumber energi eksternal"
+    },
+    {
+     "who": "boca",
+     "text": "Jadi semua yang hidup di HP mengambil energi dari tangki itu.",
+     "caption": "semua ambil energi dari tangki",
+     "caption_adult": "konsumsi daya aplikasi"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "card": {
+      "kind": "steps",
+      "title": "Ke mana energi baterai pergi",
+      "accent": "#1F6F78",
+      "steps": [
+       "Layar terang",
+       "Notifikasi terus",
+       "Aplikasi latar jalan"
+      ]
+     },
+     "on_line": 0,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 4,
+   "scene": "garden",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan motor yang bensinnya dihisap sedikit demi sedikit.",
+     "caption": "bensin dihisap sedikit demi sedikit",
+     "caption_adult": "konsumsi bertahap"
+    },
+    {
+     "who": "boca",
+     "text": "Makin banyak yang jalan, makin cepat tangkinya kosong.",
+     "caption": "makin banyak jalan, makin cepat kosong",
+     "caption_adult": "daya tahan baterai"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "phone",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 5.1
+  },
+  {
+   "n": 5,
+   "scene": "phone_inside",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jadi bukan HP-nya yang boros, tapi banyak aplikasi yang jalan diam-diam.",
+     "caption": "bukan HP boros, tapi aplikasinya",
+     "caption_adult": "proses latar belakang"
+    },
+    {
+     "who": "lumi",
+     "text": "Wah, berarti aplikasi yang jalan sendiri juga ikut boros?",
+     "caption": "aplikasi jalan sendiri ikut boros",
+     "caption_adult": "klarifikasi penyebab"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 6,
+   "scene": "kitchen",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Layar terang, banyak notifikasi, itu semuanya makan baterai.",
+     "caption": "layar terang dan notifikasi makan baterai",
+     "caption_adult": "konsumsi utama"
+    },
+    {
+     "who": "boca",
+     "text": "Isi ulang, pakai mode hemat, dan tutup aplikasi tak perlu.",
+     "caption": "isi ulang dan mode hemat",
+     "caption_adult": "tips hemat daya"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 7,
+   "scene": "bedroom",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba cek pengaturan baterai, mana yang paling boros di HP-mu?",
+     "caption": "cek pengaturan baterai, mana boros",
+     "caption_adult": "memeriksa usage"
+    },
+    {
+     "who": "pak_darno",
+     "text": "Ternyata yang paling banyak menyedot daya itu videonya.",
+     "caption": "video paling banyak nyedot daya",
+     "caption_adult": "hasil pemeriksaan"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "pak_darno",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 5.7
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "Baterai menyimpan energi, tidak menghasilkan sendiri; layar dan aplikasi latar menguras daya. Tanpa angka. Rujukan: US DOE (How batteries work).",
+ "approved_at": "2026-11-15T08:16:40"
+}

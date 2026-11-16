@@ -1,0 +1,648 @@
+{
+  "id": "BOCA-D03",
+  "day": 3,
+  "title": "Kenapa kita harus tidur?",
+  "duration_target": 45,
+  "facts_status": "pending",
+  "scene_family": "kamar malam → dalam tubuh → kota neuron",
+  "palette_mood": "malam hangat",
+  "motion_motif": "M3",
+  "vo": {
+    "voice_boca": "Puck",
+    "voice_lumi": "Aoede",
+    "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+    "total_words": 145,
+    "est_seconds": 45.4,
+    "lumi_lines": 2,
+    "beats": [
+      {
+        "shot": 1,
+        "function": "hook",
+        "emotion": "penasaran",
+        "emphasis": [
+          "mematikan",
+          "lampu"
+        ],
+        "pause_before": 0.0,
+        "pause_after": 0.25
+      },
+      {
+        "shot": 2,
+        "function": "gap",
+        "emotion": "heran",
+        "emphasis": [
+          "pekerjaan besar"
+        ],
+        "pause_before": 0.0,
+        "pause_after": 0.2
+      },
+      {
+        "shot": 3,
+        "function": "explain",
+        "emotion": "menjelaskan",
+        "emphasis": [
+          "merapikan",
+          "album"
+        ],
+        "pause_before": 0.0,
+        "pause_after": 0.2
+      },
+      {
+        "shot": 4,
+        "function": "analogy",
+        "emotion": "menjelaskan",
+        "emphasis": [
+          "sering dipakai",
+          "disingkirkan"
+        ],
+        "pause_before": 0.0,
+        "pause_after": 0.2
+      },
+      {
+        "shot": 5,
+        "function": "twist",
+        "emotion": "menegaskan",
+        "emphasis": [
+          "memperbaiki",
+          "kesal"
+        ],
+        "pause_before": 0.0,
+        "pause_after": 0.25
+      },
+      {
+        "shot": 6,
+        "function": "cta",
+        "emotion": "hangat",
+        "emphasis": [
+          "shift malam",
+          "nempel"
+        ],
+        "pause_before": 0.0,
+        "pause_after": 0.3
+      }
+    ]
+  },
+  "shots": [
+    {
+      "n": 1,
+      "scene": "bedroom_night",
+      "beat": "hook",
+      "cam": {
+        "fx": [
+          0.3,
+          0.7
+        ],
+        "fy": [
+          0.35,
+          0.62
+        ],
+        "z": [
+          1.0,
+          1.0
+        ]
+      },
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "sleepy",
+          "pose": "walk",
+          "arms": [
+            0
+          ],
+          "x": -300,
+          "ground": 1400,
+          "h": 640
+        },
+        {
+          "t": 1.5,
+          "expr": "sleepy",
+          "pose": "stand",
+          "arms": [
+            0,
+            3
+          ],
+          "period": 0.8,
+          "x": 250,
+          "ground": 1400,
+          "h": 660
+        },
+        {
+          "t": 3.2,
+          "expr": "confused",
+          "pose": "think",
+          "arms": [
+            1
+          ],
+          "x": 255,
+          "ground": 1400,
+          "h": 665
+        },
+        {
+          "t": 5.0,
+          "expr": "focus",
+          "pose": "stand",
+          "arms": [
+            2
+          ],
+          "x": 258,
+          "ground": 1400,
+          "h": 668
+        }
+      ],
+      "lumi": [
+        {
+          "t": 0.6,
+          "expr": "happy",
+          "pose": "float",
+          "x": 830,
+          "y": 1180,
+          "h": 240
+        },
+        {
+          "t": 4.0,
+          "expr": "shock",
+          "pose": "float",
+          "x": 810,
+          "y": 1150,
+          "h": 245
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "whoosh",
+          0.8
+        ]
+      ],
+      "est_seconds": 7.5,
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Setiap malam, tubuh kita seperti mematikan lampu sendiri tanpa kita pernah sadari.",
+          "caption": "tubuh mematikan lampu sendiri",
+          "caption_adult": "tidur = tubuh masuk mode pemeliharaan"
+        },
+        {
+          "who": "lumi",
+          "text": "Lampu apa yang dimatikan? Aku nggak melihat ada saklar di rumah ini.",
+          "caption": "lampu apa yang dimatikan",
+          "caption_adult": "kesadaran meredup, bukan mati total"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "scene": "bedroom",
+      "beat": "gap",
+      "cam": {
+        "fx": [
+          0.46,
+          0.5
+        ],
+        "fy": [
+          0.44,
+          0.46
+        ],
+        "z": [
+          1.0,
+          1.25
+        ]
+      },
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "neutral",
+          "pose": "stand",
+          "arms": [
+            0
+          ],
+          "x": 260,
+          "ground": 1400,
+          "h": 655
+        },
+        {
+          "t": 2.0,
+          "expr": "focus",
+          "pose": "point",
+          "arms": [
+            2
+          ],
+          "x": 265,
+          "ground": 1400,
+          "h": 660
+        },
+        {
+          "t": 4.2,
+          "expr": "neutral",
+          "pose": "stand",
+          "arms": [
+            1,
+            3
+          ],
+          "period": 0.85,
+          "x": 262,
+          "ground": 1400,
+          "h": 658
+        }
+      ],
+      "lumi": [
+        {
+          "t": 1.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 840,
+          "y": 1200,
+          "h": 235
+        }
+      ],
+      "sfx": [],
+      "est_seconds": 7.5,
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Padahal tidur bukan cuma berhenti bergerak, ada pekerjaan besar di dalam tubuh.",
+          "caption": "tidur bukan sekadar berhenti bergerak",
+          "caption_adult": "banyak proses aktif saat kita tidur"
+        },
+        {
+          "who": "boca",
+          "text": "Kita merasa hanya memejamkan mata, tapi organ kita sedang berganti shift kerja.",
+          "caption": "organ kita berganti shift kerja",
+          "caption_adult": "organ bekerja bergiliran sepanjang malam"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "scene": "body_inside",
+      "beat": "explain",
+      "cam": {
+        "fx": [
+          0.32,
+          0.62
+        ],
+        "fy": [
+          0.45,
+          0.45
+        ],
+        "z": [
+          1.05,
+          1.05
+        ]
+      },
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "shock",
+          "pose": "walk",
+          "arms": [
+            0
+          ],
+          "x": -280,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 1.6,
+          "expr": "shock",
+          "pose": "stand",
+          "arms": [
+            0,
+            3
+          ],
+          "period": 0.8,
+          "x": 240,
+          "ground": 1400,
+          "h": 640
+        },
+        {
+          "t": 3.4,
+          "expr": "happy",
+          "pose": "point",
+          "arms": [
+            2
+          ],
+          "x": 250,
+          "ground": 1400,
+          "h": 645
+        }
+      ],
+      "lumi": [
+        {
+          "t": 0.4,
+          "expr": "happy",
+          "pose": "float",
+          "x": 860,
+          "y": 1160,
+          "h": 235
+        },
+        {
+          "t": 3.0,
+          "expr": "happy",
+          "pose": "point",
+          "x": 830,
+          "y": 1130,
+          "h": 240
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "sparkle",
+          0.8
+        ]
+      ],
+      "est_seconds": 7.5,
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Saat tidur, otak merapikan ingatan hari ini seperti memilah foto ke album.",
+          "caption": "otak merapikan ingatan hari ini",
+          "caption_adult": "konsolidasi memori terjadi saat tidur"
+        },
+        {
+          "who": "lumi",
+          "text": "Jadi ingatan yang penting dipindah ke album yang lebih aman, ya, Boca?",
+          "caption": "dipindah ke album lebih aman",
+          "caption_adult": "memori penting disimpan lebih permanen"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "scene": "neuron_city",
+      "beat": "analogy",
+      "cam": {
+        "fx": [
+          0.3,
+          0.7
+        ],
+        "fy": [
+          0.35,
+          0.62
+        ],
+        "z": [
+          1.0,
+          1.0
+        ]
+      },
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "focus",
+          "pose": "stand",
+          "arms": [
+            1
+          ],
+          "x": 250,
+          "ground": 1400,
+          "h": 650
+        },
+        {
+          "t": 2.2,
+          "expr": "focus",
+          "pose": "point",
+          "arms": [
+            2
+          ],
+          "x": 255,
+          "ground": 1400,
+          "h": 655
+        },
+        {
+          "t": 4.5,
+          "expr": "happy",
+          "pose": "stand",
+          "arms": [
+            1,
+            3
+          ],
+          "period": 0.8,
+          "x": 252,
+          "ground": 1400,
+          "h": 652
+        }
+      ],
+      "lumi": [
+        {
+          "t": 1.2,
+          "expr": "happy",
+          "pose": "float",
+          "x": 850,
+          "y": 1190,
+          "h": 238
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "pop",
+          0.6
+        ]
+      ],
+      "est_seconds": 7.5,
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Ingatan yang sering dipakai dirapikan, yang jarang dipakai disingkirkan pelan-pelan sekali.",
+          "caption": "yang sering dipakai dirapikan",
+          "caption_adult": "jalur saraf yang aktif jadi lebih kuat"
+        },
+        {
+          "who": "boca",
+          "text": "Jaringan otak yang baru dipakai akan dirapikan supaya besok lebih mudah dipanggil.",
+          "caption": "jaringan otak dirapikan",
+          "caption_adult": "penguatan koneksi saraf saat istirahat"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "scene": "body_inside",
+      "beat": "twist",
+      "cam": {
+        "fx": [
+          0.46,
+          0.5
+        ],
+        "fy": [
+          0.44,
+          0.46
+        ],
+        "z": [
+          1.0,
+          1.25
+        ]
+      },
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "neutral",
+          "pose": "think",
+          "arms": [
+            1
+          ],
+          "x": 245,
+          "ground": 1400,
+          "h": 645
+        },
+        {
+          "t": 2.4,
+          "expr": "confused",
+          "pose": "think",
+          "arms": [
+            1
+          ],
+          "x": 248,
+          "ground": 1400,
+          "h": 648
+        },
+        {
+          "t": 4.0,
+          "expr": "focus",
+          "pose": "stand",
+          "arms": [
+            3
+          ],
+          "x": 250,
+          "ground": 1400,
+          "h": 650
+        },
+        {
+          "t": 5.6,
+          "expr": "happy",
+          "pose": "stand",
+          "arms": [
+            0,
+            3
+          ],
+          "period": 0.8,
+          "x": 252,
+          "ground": 1400,
+          "h": 652
+        }
+      ],
+      "lumi": [
+        {
+          "t": 2.0,
+          "expr": "shock",
+          "pose": "float",
+          "x": 845,
+          "y": 1170,
+          "h": 236
+        }
+      ],
+      "sfx": [],
+      "est_seconds": 7.8,
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Tubuh juga memperbaiki sel yang rusak dan mengisi ulang tenaga untuk besok pagi.",
+          "caption": "tubuh memperbaiki sel dan tenaga",
+          "caption_adult": "perbaikan jaringan dan pemulihan energi"
+        },
+        {
+          "who": "boca",
+          "text": "Karena itu kurang tidur bikin kita lambat berpikir dan gampang kesal sekali.",
+          "caption": "kurang tidur bikin lambat berpikir",
+          "caption_adult": "kurang tidur mengganggu fokus dan mood"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "scene": "bedroom_night",
+      "beat": "cta",
+      "cam": {
+        "fx": [
+          0.47,
+          0.5
+        ],
+        "fy": [
+          0.45,
+          0.45
+        ],
+        "z": [
+          1.1,
+          1.45
+        ]
+      },
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "happy",
+          "pose": "stand",
+          "arms": [
+            0
+          ],
+          "x": 250,
+          "ground": 1400,
+          "h": 655
+        },
+        {
+          "t": 2.6,
+          "expr": "happy",
+          "pose": "wave",
+          "arms": [
+            3
+          ],
+          "x": 252,
+          "ground": 1400,
+          "h": 660
+        },
+        {
+          "t": 5.0,
+          "expr": "happy",
+          "pose": "cheer",
+          "arms": [
+            1,
+            3
+          ],
+          "x": 255,
+          "ground": 1400,
+          "h": 665
+        }
+      ],
+      "lumi": [
+        {
+          "t": 1.4,
+          "expr": "happy",
+          "pose": "cheer",
+          "x": 820,
+          "y": 1140,
+          "h": 245
+        },
+        {
+          "t": 4.4,
+          "expr": "happy",
+          "pose": "wave",
+          "x": 800,
+          "y": 1120,
+          "h": 248
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "chime",
+          0.7
+        ]
+      ],
+      "est_seconds": 7.5,
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Jadi tidur bukan buang waktu, tapi shift malam yang dijalankan oleh tubuh kita.",
+          "caption": "tidur itu shift malam tubuh",
+          "caption_adult": "tidur = proses aktif, bukan waktu terbuang"
+        },
+        {
+          "who": "boca",
+          "text": "Coba ingat, pelajaran apa yang paling nempel setelah kamu tidur cukup semalam?",
+          "caption": "pelajaran apa yang paling nempel",
+          "caption_adult": "tidur cukup membantu mengingat pelajaran"
+        }
+      ]
+    }
+  ]
+}

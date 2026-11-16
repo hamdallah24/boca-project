@@ -1,0 +1,853 @@
+{
+ "id": "BOCA-D08",
+ "day": 8,
+ "title": "Internet itu sebenarnya tinggal di mana?",
+ "series": "BMM",
+ "duration_target": 60,
+ "facts_status": "verified",
+ "cta": "Menurutmu internet itu di mana?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "data_city",
+ "motion_motif": "packet_journey_and_pulse",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Leda",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 180,
+  "est_seconds": 57,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "sari"
+ },
+ "analogy": {
+  "source": "surat yang dikirim lewat jalur pos",
+  "maps": [
+   {
+    "real": "data disimpan di server dan dibuka lewat jaringan",
+    "analogy": "surat dikirim lewat jalur pos lalu dibuka"
+   },
+   {
+    "real": "kabel dan menara adalah jalurnya",
+    "analogy": "jalur pos menghubungkan kantor pos"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Semua orang pernah kirim surat dan tahu pos itu punya jalurnya sendiri."
+ },
+ "publish": {
+  "title": "BOCA — Internet itu sebenarnya tinggal di mana?",
+  "description": "Internet adalah jaringan perangkat dan infrastruktur yang saling terhubung, bukan benda yang tinggal di satu tempat.\n\nKota digital, rumah, kabel bawah laut, pusat data, dan satelit.\n\nMenurutmu internet itu di mana?\n\n#teknologi #faktaunik #edukasicuma #ideinaja",
+  "hashtags": [
+   "#teknologi",
+   "#faktaunik",
+   "#edukasicuma",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "data_center",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Internet itu sebenarnya tinggal di mana, sih?",
+     "caption": "internet tinggal di mana",
+     "caption_adult": "internet itu sebenarnya tinggal di mana"
+    },
+    {
+     "who": "boca",
+     "text": "Data internet itu bukan di langit. Dia ngumpet di rak-rak server.",
+     "caption": "data ngumpet di rak server",
+     "caption_adult": "data disimpan di server"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 5.7
+  },
+  {
+   "n": 2,
+   "scene": "city_street",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Semua orang kirim data lewat kabel, wifi, dan menara sinyal di setiap kota.",
+     "caption": "data lewat kabel dan menara sinyal",
+     "caption_adult": "jalur transmisi data"
+    },
+    {
+     "who": "sari",
+     "text": "Jadi tiap pesan yang kita kirim itu jalan jauh melewati banyak titik?",
+     "caption": "tiap pesan lewat banyak titik",
+     "caption_adult": "hops dalam jaringan"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 3,
+   "scene": "data_center",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Datanya masuk ke data center, lalu disimpan rapi di rak-rak server yang tinggi.",
+     "caption": "masuk ke data center lalu disimpan",
+     "caption_adult": "arsip data"
+    },
+    {
+     "who": "lumi",
+     "text": "Kalau ada yang mau melihatnya, jalurnya dibuka satu per satu oleh server.",
+     "caption": "jalurnya dibuka satu per satu",
+     "caption_adult": "permintaan data divalidasi"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "card": {
+      "kind": "steps",
+      "title": "Perjalanan satu pesan",
+      "accent": "#1F6F78",
+      "steps": [
+       "Data dipecah kecil",
+       "Disimpan di server",
+       "Diambil saat dibuka"
+      ]
+     },
+     "on_line": 0,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 4,
+   "scene": "house_cutaway",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan semua pesan itu seperti surat yang dikirim lewat jalur pos ke seluruh negara.",
+     "caption": "pesan seperti surat lewat jalur pos",
+     "caption_adult": "analogi transmisi"
+    },
+    {
+     "who": "boca",
+     "text": "Kabel itu jalurnya, dan data center itu kantor pos yang besar.",
+     "caption": "kabel jalurnya, server kantor posnya",
+     "caption_adult": "pemetaan analogi"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "phone",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 5,
+   "scene": "phone_inside",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jadi waktu aplikasi dibuka, file besarnya sendiri tidak ikut terbawa.",
+     "caption": "file besar tidak ikut terbawa",
+     "caption_adult": "hanya alamat yang dikirim"
+    },
+    {
+     "who": "boca",
+     "text": "Cuma alamatnya yang dikirim, lalu isinya disalin ulang ke layar ini.",
+     "caption": "alamat dikirim, isinya disalin",
+     "caption_adult": "model salin bukan kirim"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 6,
+   "scene": "data_center",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kabar di internet menyalin dirinya ke banyak arah sekaligus, seperti foto.",
+     "caption": "menyalin diri ke banyak arah",
+     "caption_adult": "replikasi data"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau satu salinan hilang, masih ada salinan lain yang menggantikannya.",
+     "caption": "salinan lain menggantikannya",
+     "caption_adult": "redundansi data"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 7,
+   "scene": "house_cutaway",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Makanya internet tetap jalan walau satu server-nya mati hari ini juga.",
+     "caption": "internet tetap jalan",
+     "caption_adult": "toleransi kegagalan server"
+    },
+    {
+     "who": "boca",
+     "text": "Salinannya ada di banyak tempat, lalu disambung lagi satu per satu.",
+     "caption": "salinannya disambung lagi",
+     "caption_adult": "pemulihan layanan"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 8,
+   "scene": "city_street",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba pikirin, pesan yang tadi kamu kirim itu lewat berapa titik server?",
+     "caption": "pesan tadi lewat berapa titik",
+     "caption_adult": "refleksi teknis"
+    },
+    {
+     "who": "sari",
+     "text": "Wah, berarti tiap pesan jalan jauh melewati banyak simpul sebelum sampai.",
+     "caption": "tiap pesan jalan jauh",
+     "caption_adult": "kesimpulan penonton"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "sari",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 7.2
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "Internet = jaringan kabel, router, dan pusat data; data dipecah menjadi paket lalu dirutekan. Tanpa angka. Rujukan: Cloudflare Learning Center.",
+ "approved_at": "2026-11-15T08:16:40"
+}

@@ -1,0 +1,736 @@
+{
+ "id": "BOCA-D14",
+ "day": 14,
+ "title": "Apa yang terjadi ketika kita menghapus foto?",
+ "series": "BMM",
+ "duration_target": 45,
+ "facts_status": "verified",
+ "cta": "Pernah kehilangan foto penting?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "data_storage",
+ "motion_motif": "data_erase_and_residue",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Leda",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 136,
+  "est_seconds": 43,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "sari"
+ },
+ "analogy": {
+  "source": "kartu yang sudah dibuang tapi masih ada di arsip kantor",
+  "maps": [
+   {
+    "real": "file yang disembunyikan masih tersimpan di server",
+    "analogy": "kartu yang dibuang masih ada di arsip"
+   },
+   {
+    "real": "data bisa dipulihkan selama belum ditimpa file baru",
+    "analogy": "kartu lama masih bisa diambil selama belum ada yang menimpa"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Orang sering melamar atau mengantar surat ke arsip kantor dan tahu kartunya masih ada di sana."
+ },
+ "publish": {
+  "title": "BOCA — Apa yang terjadi ketika kita menghapus foto?",
+  "description": "Menghapus foto biasanya menghapus atau menandai file agar tidak lagi ditampilkan; salinan di sampah, cloud, backup, atau perangkat lain mungkin masih ada.\n\nGaleri HP yang berubah menjadi gudang penyimpanan digital.\n\nPernah kehilangan foto penting?\n\n#teknologi #faktaunik #edukasicuma #ideinaja",
+  "hashtags": [
+   "#teknologi",
+   "#faktaunik",
+   "#edukasicuma",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "house_cutaway",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kenapa foto yang sudah dihapus masih bisa muncul lagi?",
+     "caption": "foto terhapus muncul lagi",
+     "caption_adult": "foto yang sudah dihapus masih bisa muncul lagi"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau file itu benar-benar hilang, kamu tidak akan pernah nemu lagi selamanya.",
+     "caption": "kalau hilang, tak akan pernah nemu",
+     "caption_adult": "Definisi hilangnya file"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 2,
+   "scene": "data_center",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Yang terjadi sebenarnya, fotonya masih ada di server atau salinan cadangan.",
+     "caption": "fotonya masih ada di server",
+     "caption_adult": "penyimpanan cadangan"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi yang dihapus itu hanya tombolnya, bukan fotonya?",
+     "caption": "yang dihapus cuma tombolnya",
+     "caption_adult": "klarifikasi UI"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 3,
+   "scene": "garden",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Hapus biasanya cuma menyembunyikan file dari daftar, bukan menghancurkannya.",
+     "caption": "hapus berarti disembunyikan",
+     "caption_adult": "soft delete"
+    },
+    {
+     "who": "boca",
+     "text": "Sudahnya masih tersimpan, hanya tidak terlihat.",
+     "caption": "masih tersimpan, tak terlihat",
+     "caption_adult": "perbedaan menyembunyikan dan menghapus"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "phone",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 5.1
+  },
+  {
+   "n": 4,
+   "scene": "city_street",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan kartu yang sudah dibuang ke tempat sampah kantor.",
+     "caption": "kartu yang dibuang ke sampah kantor",
+     "caption_adult": "analogi tempat sampah"
+    },
+    {
+     "who": "boca",
+     "text": "Ternyata masih ada di arsip kantor, jadi bisa ditemukan lagi kalau dibutuhkan.",
+     "caption": "tternyata masih ada di arsip",
+     "caption_adult": "arsip tidak langsung kosong"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 5,
+   "scene": "park_evening",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Dan bukan semua yang disembunyikan itu langsung hilang begitu saja.",
+     "caption": "bukan semua langsung hilang",
+     "caption_adult": "perpindahan sampah"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau ruangnya sudah ditimpa file baru, barulah yang lama hilang.",
+     "caption": "kalau ditimpa baru hilang",
+     "caption_adult": "penimpaan data"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 6,
+   "scene": "data_center",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jadi hapus di HP biasanya cuma menyembunyikan, bukan menghapus.",
+     "caption": "hapus di HP itu menyembunyikan",
+     "caption_adult": "ringkasan perbedaan"
+    },
+    {
+     "who": "boca",
+     "text": "Karena itu, file penting lebih aman dihapus beneran dari server.",
+     "caption": "file penting dihapus dari server",
+     "caption_adult": "penghapusan permanen"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 7,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba cek folder sampah di HP-mu, masih ada file lama di sana?",
+     "caption": "cek folder sampah di HP",
+     "caption_adult": "tindakan praktis"
+    },
+    {
+     "who": "sari",
+     "text": "Wah, ada foto lama yang kupikir sudah hilang.",
+     "caption": "ada foto lama yang hilang",
+     "caption_adult": "respons penonton"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "sari",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.3
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "Hapus biasanya menandai ruang sebagai kosong (bisa tertimpa); di SSD/cloud ada proses berbeda. Tanpa angka. Rujukan: dokumentasi umum sistem file.",
+ "approved_at": "2026-11-15T08:16:40"
+}

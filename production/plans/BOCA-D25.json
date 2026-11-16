@@ -1,0 +1,920 @@
+{
+ "id": "BOCA-D25",
+ "day": 25,
+ "title": "Kenapa orang kaya bisa semakin kaya?",
+ "series": "BBU",
+ "duration_target": 60,
+ "facts_status": "verified",
+ "cta": "Kamu punya aset produktif?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "money_growth",
+ "motion_motif": "compound_growth_stack",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Orus",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 181,
+  "est_seconds": 57,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 9,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "kak_bima"
+ },
+ "analogy": {
+  "source": "tanaman yang dipindah ke pot lebih besar saat akarnya penuh",
+  "maps": [
+   {
+    "real": "aset yang keuntungannya diputar lagi",
+    "analogy": "tanaman yang dipindah ke pot lebih besar"
+   },
+   {
+    "real": "hasil investasi yang menumpuk dari waktu ke waktu",
+    "analogy": "akar yang makin penuh dan tumbuh makin cepat"
+   }
+  ],
+  "line_shot": 5,
+  "why_it_works": "Memindah tanaman ke pot lebih besar adalah hal yang biasa dilihat di rumah atau halaman."
+ },
+ "publish": {
+  "title": "BOCA — Kenapa orang kaya bisa semakin kaya?",
+  "description": "Aset produktif, investasi, kepemilikan bisnis, dan efek pertumbuhan majemuk dapat memperbesar kekayaan; hasil tidak selalu pasti dan risiko tetap ada.\n\nDua kebun yang tumbuh berbeda, lalu berubah menjadi ilustrasi aset dan bisnis.\n\nKamu punya aset produktif?\n\n#uang #faktaunik #keluargabocah #ideinaja",
+  "hashtags": [
+   "#uang",
+   "#faktaunik",
+   "#keluargabocah",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kenapa orang kaya bisa makin kaya, sedangkan yang lain tidak?",
+     "caption": "kaya makin kaya",
+     "caption_adult": "Kenapa orang kaya bisa makin kaya, sedangkan yang lain tidak?"
+    },
+    {
+     "who": "kak_bima",
+     "text": "Yang satunya cuma disimpan di lemari, tidak dipakai apa-apa, ya?",
+     "caption": "satu cuma disimpan",
+     "caption_adult": "satu hanya disimpan"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 2,
+   "scene": "bank",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Uang yang cuma disimpan jumlahnya tetap, tidak ikut tumbuh sendiri.",
+     "caption": "disimpan saja tidak tumbuh",
+     "caption_adult": "uang diam tidak berkembang"
+    },
+    {
+     "who": "kak_bima",
+     "text": "Terus kalau uangnya dipakai beli aset, hasilnya jadi bagaimana?",
+     "caption": "kalau dibelikan aset?",
+     "caption_adult": "jika dibelikan aset?"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 3,
+   "scene": "stock_board",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Aset produktif itu benda yang bisa menghasilkan pemasukan tanpa kita kerja terus.",
+     "caption": "aset menghasilkan pemasukan",
+     "caption_adult": "aset memberi pemasukan"
+    },
+    {
+     "who": "boca",
+     "text": "Contohnya usaha yang untung, atau saham yang membagi keuntungan.",
+     "caption": "usaha untung, saham bagi hasil",
+     "caption_adult": "usaha untung, saham berbagi hasil"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "coin_stack",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 4,
+   "scene": "park_evening",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Keuntungannya diputar lagi jadi aset baru, bukan habis untuk jajan.",
+     "caption": "untung diputar lagi",
+     "caption_adult": "untung jadi aset baru"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi seperti tanaman yang dipindah ke pot yang lebih besar?",
+     "caption": "seperti pindah pot",
+     "caption_adult": "seperti ganti pot besar"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 5,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Akar yang sudah penuh dipindah ke pot besar, tumbuhnya lebih cepat.",
+     "caption": "pot lebih besar, tumbuh cepat",
+     "caption_adult": "pot besar, tumbuh cepat"
+    },
+    {
+     "who": "boca",
+     "text": "Aset kecil yang terus ditambah juga bisa membesar pelan-pelan, kan?",
+     "caption": "aset kecil bisa membesar",
+     "caption_adult": "aset kecil ikut membesar"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 6,
+   "scene": "city_top",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Tapi tanaman juga bisa kena badai. Aset bisa rugi, bahkan hilang.",
+     "caption": "aset bisa rugi",
+     "caption_adult": "aset bisa merugi"
+    },
+    {
+     "who": "boca",
+     "text": "Jadi ini bukan jaminan aman. Risiko selalu ada di setiap pilihan.",
+     "caption": "risiko selalu ada",
+     "caption_adult": "risiko tidak hilang"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 7,
+   "scene": "bank",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Orang kaya menambah aset, bukan cuma menambah barang mahal.",
+     "caption": "menambah aset, bukan barang",
+     "caption_adult": "tambah aset, bukan barang"
+    },
+    {
+     "who": "kak_bima",
+     "text": "Berarti kuncinya di asetnya, bukan di jumlah uangnya, ya?",
+     "caption": "kuncinya aset",
+     "caption_adult": "kunci pada aset"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 5.7
+  },
+  {
+   "n": 8,
+   "scene": "classroom",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bedanya bukan di besar kecilnya uang, tapi di cara memakainya.",
+     "caption": "bedanya cara memakai",
+     "caption_adult": "bedanya cara pakai"
+    },
+    {
+     "who": "boca",
+     "text": "Uang yang jadi aset bisa bekerja, uang yang disimpan diam saja.",
+     "caption": "aset bekerja, simpanan diam",
+     "caption_adult": "aset bekerja, tabungan diam"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 9,
+   "scene": "park_evening",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 880,
+     "y": 1050,
+     "h": 240
+    }
+   ],
+   "guest": [],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba lihat pengeluaranmu, mana yang bisa berubah jadi aset?",
+     "caption": "mana yang bisa jadi aset",
+     "caption_adult": "mana bisa jadi aset"
+    },
+    {
+     "who": "boca",
+     "text": "Mulai dari yang kecil, lalu tambah sedikit demi sedikit.",
+     "caption": "mulai kecil, tambah pelan",
+     "caption_adult": "mulai kecil, tambah bertahap"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 5.7
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "HIGH-RISK. Kekayaan tumbuh lewat aset produktif dan efek majemuk (hasil diinvestasikan kembali); hasil tidak dijamin dan risiko kerugian tetap ada. Rujukan: Britannica Money (compounding), Vanguard (risk, reward & compounding).",
+ "approved_at": "2026-11-15T08:16:40"
+}

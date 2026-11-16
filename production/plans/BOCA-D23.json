@@ -1,0 +1,1236 @@
+{
+ "id": "BOCA-D23",
+ "day": 23,
+ "title": "Kenapa negara bisa punya utang?",
+ "series": "BBU",
+ "duration_target": 90,
+ "facts_status": "verified",
+ "cta": "Menurutmu utang negara itu kayak apa?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "money_state",
+ "motion_motif": "debt_stack_and_interest",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Orus",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 274,
+  "est_seconds": 86,
+  "lumi_lines": 7,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 9,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 10,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 11,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 12,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "kak_bima"
+ },
+ "analogy": {
+  "source": "cicilan rumah yang dibayar dari gaji bulanan",
+  "maps": [
+   {
+    "real": "pinjaman dipakai untuk membangun yang hasilnya jangka panjang",
+    "analogy": "cicilan dipakai untuk membangun rumah yang dipakai bertahun-tahun"
+   },
+   {
+    "real": "utang harus dibayar dari penghasilan tahun berikutnya",
+    "analogy": "cicilan dibayar dari gaji bulan berikutnya"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Pinjaman dan cicilan rumah adalah cara meminjam yang paling sering dipakai orang Indonesia."
+ },
+ "publish": {
+  "title": "BOCA — Kenapa negara bisa punya utang?",
+  "description": "Negara meminjam untuk membiayai kebutuhan atau mengelola anggaran; utang harus dibayar sesuai ketentuan dan kemampuan fiskal.\n\nKota besar, proyek infrastruktur, dan gedung perbendaharaan negara.\n\nMenurutmu utang negara itu kayak apa?\n\n#uang #faktaunik #keluargabocah #ideinaja",
+  "hashtags": [
+   "#uang",
+   "#faktaunik",
+   "#keluargabocah",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "bank",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kok negara boleh punya utang, padahal uangnya dari rakyat, ya?",
+     "caption": "negara punya utang",
+     "caption_adult": "Kok negara boleh punya utang, padahal uangnya dari rakyat, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Iya, uangnya dari rakyat. Tapi uang juga bisa dipinjam buat yang lebih besar.",
+     "caption": "uangnya dari rakyat tapi bisa dipinjam",
+     "caption_adult": "pengantar jawaban"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 7.2
+  },
+  {
+   "n": 2,
+   "scene": "stock_board",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Misalnya negara mau membangun jembatan besar, dan uangnya belum cukup banyak lagi.",
+     "caption": "mau bangun jembatan, uang belum cukup",
+     "caption_adult": "contoh kebutuhan"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi dia pinjam dulu, lalu bayar cicilannya nanti-nanti dari tahun depan?",
+     "caption": "pinjam dulu, bayar cicilan nanti",
+     "caption_adult": "alur utang"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.2
+  },
+  {
+   "n": 3,
+   "scene": "money_print",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Pinjamannya dipakai buat jalan, jembatan, dan fasilitas yang dipakai umum.",
+     "caption": "dipakai buat jalan dan jembatan",
+     "caption_adult": "makna pinjaman"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi orang yang memakai fasilitas itu tiap hari juga ikut menikmatinya?",
+     "caption": "pemakai fasilitas ikut menikmatinya",
+     "caption_adult": "klarifikasi manfaat"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "coin_stack",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 4,
+   "scene": "data_center",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Pinjaman itu berubah jadi aset yang bisa dipakai bertahun-tahun lamanya.",
+     "caption": "pinjaman berubah jadi aset",
+     "caption_adult": "konversi utang jadi aset"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi utangnya bukan beban, tapi alat untuk membagi hasil ke banyak orang?",
+     "caption": "utang alat membagi hasil",
+     "caption_adult": "klarifikasi peran utang"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.2
+  },
+  {
+   "n": 5,
+   "scene": "city_top",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Betul, tapi hanya kalau dipakai buat hal yang hasilnya jangka panjang.",
+     "caption": "hanya buat hasil jangka panjang",
+     "caption_adult": "syarat"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau uangnya buat kesalahan, utangnya jadi beban yang menyesal sekali juga.",
+     "caption": "kalau salah, utang jadi beban",
+     "caption_adult": "risiko akibat salah"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 6,
+   "scene": "galaxy",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Dan sama seperti cicilan rumah, utangnya juga harus dibayar setiap tahun.",
+     "caption": "utang harus dibayar setiap tahun",
+     "caption_adult": "kewajiban pembayaran"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi negara harus menyisihkan sebagian uangnya untuk membayar utangnya tiap tahun?",
+     "caption": "sisihkan uang untuk bayar utang",
+     "caption_adult": "klarifikasi beban"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 7,
+   "scene": "park_evening",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Benar. Negara yang menunda terus-menerus akan menumpuk beban bunga yang berat.",
+     "caption": "menunda menumpuk beban bunga",
+     "caption_adult": "akibat menunda"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi semakin lama ditunda, semakin mahal juga semuanya jadi?",
+     "caption": "semakin lama ditunda makin mahal",
+     "caption_adult": "klarifikasi konsekuensi"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 8,
+   "scene": "bank",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Utang yang sehat itu yang bisa dilayani dari penghasilan tahun depan.",
+     "caption": "utang sehat bisa dilayani tahun depan",
+     "caption_adult": "kriteria utang sehat"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau tidak bisa dilayani, negara itu masuk ke jalan yang jauh lebih sulit.",
+     "caption": "kalau tidak bisa, jalan lebih sulit",
+     "caption_adult": "risiko nyata"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 9,
+   "scene": "city_top",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "lumi",
+     "text": "Jadi bukan utang atau tidaknya yang penting, tapi hasilnya dipakai atau tidak?",
+     "caption": "hasilnya dipakai atau tidak",
+     "caption_adult": "kriteria penentu"
+    },
+    {
+     "who": "boca",
+     "text": "Tepat. Jembatan yang dipakai tiap hari bukti bahwa utangnya berguna buat orang.",
+     "caption": "jembatan bukti utang berguna",
+     "caption_adult": "bukti lapangan"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.5
+  },
+  {
+   "n": 10,
+   "scene": "beach",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Pokoknya, utang itu alat. Yang menentukan adalah kita pakai untuk apa saja.",
+     "caption": "utang alat, menentukan pemakaiannya",
+     "caption_adult": "kriteria utama"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi yang dinilai bukan utangnya, tapi hasilnya buat warga banyak?",
+     "caption": "yang dinilai hasilnya buat warga",
+     "caption_adult": "klarifikasi penutup"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 11,
+   "scene": "money_print",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jadi utang itu seperti pinjaman pribadi yang hasilnya jauh lebih besar dari pokoknya.",
+     "caption": "utang seperti pinjaman pribadi",
+     "caption_adult": "analogi penutup"
+    },
+    {
+     "who": "kak_bima",
+     "text": "Bedanya, kalau pribadi gagal bayar, yang rugi cuma dia sendiri dan keluarga.",
+     "caption": "kalau gagal bayar, rugi sendiri",
+     "caption_adult": "perbedaan risiko"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 12,
+   "scene": "house_cutaway",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.7
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba lihat jalan, jembatan, atau sekolah yang ada di sekitarmu sekarang.",
+     "caption": "lihat jalan jembatan sekolah",
+     "caption_adult": "undang penonton"
+    },
+    {
+     "who": "kak_bima",
+     "text": "Yang dipakai setiap hari itu hasil dari uang bersama kita semua, ya?",
+     "caption": "yang dipakai tiap hari hasil uang bersama",
+     "caption_adult": "kesimpulan penonton"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "kak_bima",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 7.2
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "HIGH-RISK. Negara berutang lewat obligasi untuk membiayai investasi/infrastruktur dan meredam resesi; risiko utama utang berlebih dan gagal bayar. Rujukan: IMF F&D (What Is Sovereign Debt), RBA Bulletin 2013.",
+ "approved_at": "2026-11-15T08:16:40"
+}

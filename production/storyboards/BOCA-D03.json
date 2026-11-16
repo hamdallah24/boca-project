@@ -1,0 +1,1206 @@
+{
+ "id": "BOCA-D03",
+ "day": 3,
+ "series": "KYB",
+ "title": "Kenapa kita harus tidur?",
+ "duration_target": 60,
+ "facts_status": "pending",
+ "logline": "Ardi masih ingin main saat malam, lalu Boca menjelaskan tidur sebagai shift malam tubuh dengan analogi HP yang di-charge.",
+ "hook": {
+  "pattern": "H6",
+  "claim": "Malam sudah larut, Ardi masih ingin main.",
+  "gap": "Padahal tubuhnya sudah memberi tanda lelah.",
+  "promise": "Kenapa tidur tidak bisa ditunda?",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "ardi"
+ },
+ "analogy": {
+  "source": "HP yang dipakai seharian lalu di-charge semalam",
+  "maps": [
+   {
+    "real": "tenaga pulih saat tidur",
+    "analogy": "baterai terisi saat di-charge"
+   },
+   {
+    "real": "sampah sel dibersihkan",
+    "analogy": "aplikasi latar ditutup supaya HP tidak lemot"
+   },
+   {
+    "real": "ingatan dirapikan",
+    "analogy": "foto dipindah ke album yang rapi"
+   }
+  ],
+  "line_shot": 3,
+  "why_it_works": "Semua orang punya HP dan pernah merasakan baterai habis, jadi konsep pemulihan tidak perlu dijelaskan abstrak."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "twist",
+   "shot": 5
+  },
+  {
+   "beat": "twist",
+   "shot": 6
+  },
+  {
+   "beat": "payoff",
+   "shot": 7
+  },
+  {
+   "beat": "payoff",
+   "shot": 8
+  },
+  {
+   "beat": "cta",
+   "shot": 9
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Fenrir",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 181,
+  "est_seconds": 56.9,
+  "lumi_lines": 4,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [
+     "harus tidur"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "gap",
+    "emotion": "menjelaskan",
+    "emphasis": [
+     "HP"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [
+     "isi ulang"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [
+     "album"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "heran",
+    "emphasis": [
+     "begadang"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [
+     "diperbaiki"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [
+     "shift malam"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [
+     "diam"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 9,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [
+     "paling nempel"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.3
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "bedroom_night",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.62
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.2,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "period": 0.8,
+     "x": 250,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 2.6,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 880,
+     "y": 1000,
+     "h": 230
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 720,
+     "ground": 1420,
+     "h": 610
+    },
+    {
+     "t": 1.4,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 716,
+     "ground": 1420,
+     "h": 612
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 3.8,
+   "dialogue": [
+    {
+     "who": "ardi",
+     "text": "Boca, kenapa sih kita harus tidur? Aku masih ingin main sebentar lagi.",
+     "caption": "kenapa kita harus tidur",
+     "caption_adult": "kebutuhan tidur tidak bisa ditunda"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 1.8
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 1.8,
+     "to": 3.8,
+     "z": 1.46
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "bedroom",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.85,
+     "x": 252,
+     "ground": 1400,
+     "h": 658
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.2,
+     "expr": "happy",
+     "pose": "float",
+     "x": 880,
+     "y": 1080,
+     "h": 235
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 740,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 736,
+     "ground": 1420,
+     "h": 616
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.9,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba bayangkan tubuhmu seperti HP yang dipakai seharian tapi belum di-charge sama sekali.",
+     "caption": "tubuh seperti HP yang belum di-charge",
+     "caption_adult": "tidur = proses pengisian ulang energi"
+    },
+    {
+     "who": "ardi",
+     "text": "HP-ku kalau baterainya habis langsung mati. Bedanya dengan tidur di mana?",
+     "caption": "bedanya dengan tidur di mana",
+     "caption_adult": "tidur bukan sekadar mati, tapi memulihkan"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.4
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 2.4,
+     "to": 4.6,
+     "z": 1.46
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.6,
+     "to": 6.9
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "scene": "body_inside",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -280,
+     "ground": 1400,
+     "h": 620
+    },
+    {
+     "t": 1.5,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "period": 0.8,
+     "x": 240,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 3.4,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 645
+    }
+   ],
+   "lumi": [
+    {
+     "t": 0.4,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1160,
+     "h": 235
+    },
+    {
+     "t": 3.0,
+     "expr": "happy",
+     "pose": "point",
+     "x": 840,
+     "y": 1120,
+     "h": 238
+    }
+   ],
+   "guest": [],
+   "sfx": [
+    [
+     0.05,
+     "sparkle",
+     0.8
+    ]
+   ],
+   "est_seconds": 7.2,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Saat tidur, tubuh masuk mode isi ulang. Tenaga dipulihkan, sisa sampah dibersihkan.",
+     "caption": "tubuh masuk mode isi ulang",
+     "caption_adult": "pemulihan energi dan pembersihan sisa metabolisme"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi seperti beres-beres kamar waktu semua orang sudah pulang, ya?",
+     "caption": "beres-beres saat semua pulang",
+     "caption_adult": "pemeliharaan berlangsung saat aktivitas turun"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 2.2,
+     "to": 4.4,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.4,
+     "to": 7.2
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "scene": "neuron_city",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.62
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.8,
+     "x": 252,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 850,
+     "y": 1190,
+     "h": 238
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "est_seconds": 7.5,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Otak juga merapikan ingatan hari ini, seperti memilah foto ke album yang rapi.",
+     "caption": "otak merapikan ingatan hari ini",
+     "caption_adult": "konsolidasi memori berlangsung saat tidur"
+    },
+    {
+     "who": "boca",
+     "text": "Ingatan yang sering dipakai disimpan rapi, yang jarang dipakai disingkirkan pelan-pelan.",
+     "caption": "yang sering dipakai disimpan",
+     "caption_adult": "jalur saraf yang aktif diperkuat, yang pasif melemah"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 2.2,
+     "to": 4.4,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.4,
+     "to": 7.5
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "scene": "bedroom",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "think",
+     "arms": [
+      1
+     ],
+     "x": 245,
+     "ground": 1400,
+     "h": 645
+    },
+    {
+     "t": 2.4,
+     "expr": "confused",
+     "pose": "think",
+     "arms": [
+      1
+     ],
+     "x": 248,
+     "ground": 1400,
+     "h": 648
+    },
+    {
+     "t": 4.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      3
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 5.6,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "period": 0.8,
+     "x": 252,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 2.0,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1120,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "est_seconds": 7.2,
+   "dialogue": [
+    {
+     "who": "lumi",
+     "text": "Berarti tidur itu bukan cuma istirahat, tapi kerja shift malam ya?",
+     "caption": "bukan istirahat, tapi shift malam",
+     "caption_adult": "tidur adalah proses aktif, bukan pasif"
+    },
+    {
+     "who": "boca",
+     "text": "Tapi ada yang aneh. Makin dipaksa begadang, makin susah fokus besok paginya.",
+     "caption": "makin begadang, makin susah fokus",
+     "caption_adult": "kurang tidur menurunkan fungsi kognitif"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 1.6
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 1.6,
+     "to": 3.6,
+     "z": 1.46
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 3.6,
+     "to": 7.2,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "scene": "body_inside",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.47,
+     0.5
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.1,
+     1.45
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 648
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 652
+    },
+    {
+     "t": 3.8,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.8,
+     "x": 252,
+     "ground": 1400,
+     "h": 650
+    }
+   ],
+   "lumi": [
+    {
+     "t": 0.6,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1170,
+     "h": 236
+    }
+   ],
+   "guest": [],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.7
+    ]
+   ],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "lumi",
+     "text": "Aku pernah begadang. Besoknya pelajaran jadi susah masuk.",
+     "caption": "besoknya pelajaran susah masuk",
+     "caption_adult": "kualitas tidur memengaruhi daya ingat"
+    },
+    {
+     "who": "boca",
+     "text": "Bukan cuma itu. Sel yang rusak diperbaiki dan tubuh mengisi ulang tenaga.",
+     "caption": "sel rusak diperbaiki",
+     "caption_adult": "perbaikan jaringan terjadi saat tidur"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 1.6
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 1.6,
+     "to": 3.6,
+     "z": 1.46
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 3.6,
+     "to": 6.3,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "scene": "bedroom_night",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.6,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.85,
+     "x": 255,
+     "ground": 1400,
+     "h": 658
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.2,
+     "expr": "happy",
+     "pose": "cheer",
+     "x": 880,
+     "y": 1040,
+     "h": 240
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 740,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.2,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 738,
+     "ground": 1420,
+     "h": 616
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 736,
+     "ground": 1420,
+     "h": 616
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "lumi",
+     "text": "Pantesan kalau kurang tidur, aku jadi gampang kesal dan gampang bingung.",
+     "caption": "kurang tidur bikin gampang kesal",
+     "caption_adult": "kurang tidur mengganggu regulasi emosi"
+    },
+    {
+     "who": "ardi",
+     "text": "Jadi tidur itu bukan buang waktu, tapi shift malam tubuh kita.",
+     "caption": "tidur itu shift malam tubuh",
+     "caption_adult": "tidur = proses aktif yang terjadwal"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.0
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 2.0,
+     "to": 4.2,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.2,
+     "to": 6.6
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "scene": "bedroom_night",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.8,
+     "x": 252,
+     "ground": 1400,
+     "h": 658
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "happy",
+     "pose": "float",
+     "x": 870,
+     "y": 1060,
+     "h": 238
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "est_seconds": 6.9,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Tepat. Tubuh justru bekerja paling sibuk saat kita kelihatan diam.",
+     "caption": "tubuh bekerja saat kita diam",
+     "caption_adult": "aktivitas metabolik tetap tinggi saat tidur"
+    },
+    {
+     "who": "boca",
+     "text": "Dan besok pagi, ingatan yang sudah dirapikan tinggal dipakai lagi dengan mudah.",
+     "caption": "ingatan siap dipakai besok",
+     "caption_adult": "hasil konsolidasi memori terasa keesokan hari"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.0
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 2.0,
+     "to": 4.2,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.2,
+     "to": 6.9
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "scene": "bedroom_night",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.62
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 1.8,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [
+    {
+     "t": 0.8,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 870,
+     "y": 1050,
+     "h": 240
+    }
+   ],
+   "guest": [],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "est_seconds": 3.8,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba ingat, pelajaran apa yang paling nempel setelah kamu tidur cukup semalam?",
+     "caption": "pelajaran apa yang paling nempel",
+     "caption_adult": "tidur cukup membantu mengingat pelajaran"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 2.2,
+     "to": 3.8,
+     "z": 1.46
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "bedroom_night",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "bedroom",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "body_inside",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "neuron_city",
+   "priority": "P1"
+  },
+  {
+   "type": "character",
+   "id": "ardi",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Fenrir",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Ardi di kanan frame (x 720-740), Boca di kiri (x 250). Lumi di kanan atas supaya tidak menutupi Ardi.",
+ "scene_family": "night_room",
+ "motion_motif": "clock_tick_and_rest"
+}

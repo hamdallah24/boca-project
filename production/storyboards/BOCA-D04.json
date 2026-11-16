@@ -1,0 +1,1062 @@
+{
+ "id": "BOCA-D04",
+ "day": 4,
+ "series": "KYB",
+ "title": "Kenapa waktu terasa cepat kalau sedang senang?",
+ "duration_target": 45,
+ "facts_status": "pending",
+ "logline": "Sari kehilangan dua jam karena scroll HP. Boca menjelaskan bahwa waktu tidak berubah — perhatian kitalah yang berpindah.",
+ "hook": {
+  "pattern": "H3",
+  "claim": "Pernah nggak dua jam scroll HP terasa cuma sepuluh menit, ya?",
+  "gap": "Padahal jam dinding tidak berubah.",
+  "promise": "Rahasianya ada di perhatian.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "sari"
+ },
+ "analogy": {
+  "source": "lampu sorot di panggung",
+  "maps": [
+   {
+    "real": "perhatian hanya bisa fokus ke satu hal",
+    "analogy": "lampu sorot hanya menerangi satu pemain"
+   },
+   {
+    "real": "jam tidak terlihat saat perhatian penuh",
+    "analogy": "bagian luar sorot jadi gelap"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Semua orang pernah menonton panggung atau konser dan paham bahwa sorot hanya menyinari satu titik."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "twist",
+   "shot": 5
+  },
+  {
+   "beat": "payoff",
+   "shot": 6
+  },
+  {
+   "beat": "cta",
+   "shot": 7
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Leda",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 135,
+  "est_seconds": 43,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "city_street",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Pernah nggak dua jam scroll HP terasa cuma sepuluh menit, ya?",
+     "caption": "dua jam terasa sepuluh menit",
+     "caption_adult": "Pernah nggak dua jam scroll HP terasa cuma sepuluh menit, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Itu bukan HP-nya yang cepat. Yang beda cuma perasaan waktumu.",
+     "caption": "waktumu yang terasa beda",
+     "caption_adult": "persepsi waktu dipengaruhi perhatian"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 760,
+     "ground": 1420,
+     "h": 610
+    },
+    {
+     "t": 1.8,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 756,
+     "ground": 1420,
+     "h": 612
+    }
+   ],
+   "props": [
+    {
+     "id": "clock",
+     "t_in": 0.9,
+     "t_out": 6.4,
+     "x": 540,
+     "y": 300,
+     "h": 280,
+     "anim": "pop_float",
+     "badge": "2 jam?",
+     "beat": true
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 2.2,
+     "to": 4.2,
+     "z": 1.48
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 4.2,
+     "to": 6.6,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "phone_inside",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.45,
+     0.5
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.1,
+     1.35
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.2,
+     "expr": "happy",
+     "pose": "float",
+     "x": 880,
+     "y": 1080,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Perhatian kita itu terbatas. Cuma bisa fokus ke satu hal saja.",
+     "caption": "perhatian itu terbatas",
+     "caption_adult": "atensi adalah sumber daya terbatas"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi pas lihat HP, jam dinding nggak kelihatan?",
+     "caption": "jam jadi tidak terlihat",
+     "caption_adult": "stimulus lain terabaikan"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 760,
+     "ground": 1420,
+     "h": 610
+    },
+    {
+     "t": 2.4,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 756,
+     "ground": 1420,
+     "h": 612
+    }
+   ],
+   "props": [
+    {
+     "id": "phone",
+     "t_in": 0.8,
+     "t_out": 5.9,
+     "x": 878,
+     "y": 330,
+     "h": 340,
+     "anim": "pop_float",
+     "badge": "scroll",
+     "beat": true
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.0
+    },
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "from": 2.0,
+     "to": 5.2,
+     "card": {
+      "kind": "compare",
+      "title": "Dua jam vs sepuluh menit",
+      "unit": "menit",
+      "accent": "#D7263D",
+      "left": {
+       "label": "SCROLL",
+       "value": 120,
+       "max": 120
+      },
+      "right": {
+       "label": "FOKUS",
+       "value": 10,
+       "max": 120
+      }
+     }
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 5.2,
+     "to": 6.0
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "scene": "classroom",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Pas kita lihat jam terus, tiap menit terasa lama sekali.",
+     "caption": "tiap menit terasa lama",
+     "caption_adult": "monitoring waktu memperlambat persepsi"
+    },
+    {
+     "who": "boca",
+     "text": "Pas asyik, jam itu hilang saja dari pandanganmu.",
+     "caption": "jam hilang dari pandangan",
+     "caption_adult": "fokus penuh menutup distraksi"
+    }
+   ],
+   "guest": [
+    {
+     "t": 1.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 760,
+     "ground": 1420,
+     "h": 610
+    }
+   ],
+   "props": [
+    {
+     "id": "hourglass",
+     "t_in": 1.0,
+     "t_out": 5.6,
+     "x": 200,
+     "y": 320,
+     "h": 320,
+     "anim": "pop_float",
+     "badge": "10 menit",
+     "beat": true
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 1.8
+    },
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "from": 1.8,
+     "to": 4.0,
+     "card": {
+      "kind": "checklist",
+      "title": "Perhatian itu terbatas",
+      "accent": "#1F6F78",
+      "items": [
+       {
+        "text": "Satu layar saja",
+        "ok": true
+       },
+       {
+        "text": "Notifikasi mati",
+        "ok": true
+       },
+       {
+        "text": "Fokus penuh",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 4.0,
+     "to": 5.7,
+     "focus": "boca",
+     "dim": 0.55
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "scene": "park_evening",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.4
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 870,
+     "y": 1050,
+     "h": 236
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan perhatian kita itu seperti lampu sorot di panggung.",
+     "caption": "perhatian seperti lampu sorot",
+     "caption_adult": "atensi bekerja seperti spotlight"
+    },
+    {
+     "who": "boca",
+     "text": "Yang kena sorot kelihatan terang. Yang di luar sorot jadi gelap.",
+     "caption": "yang di luar sorot jadi gelap",
+     "caption_adult": "hal di luar fokus tidak diproses"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "heart",
+     "t_in": 0.9,
+     "t_out": 6.2,
+     "x": 862,
+     "y": 330,
+     "h": 240,
+     "anim": "pop_float"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.4
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 2.4,
+     "to": 4.4,
+     "z": 1.52
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 4.4,
+     "to": 6.3,
+     "focus": "lumi",
+     "dim": 0.5
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "scene": "city_top",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "est_seconds": 5.1,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Makanya waktu senang terasa cepat, waktu bosan terasa lambat.",
+     "caption": "senang cepat, bosan lambat",
+     "caption_adult": "persepsi waktu bergantung atensi"
+    },
+    {
+     "who": "sari",
+     "text": "Berarti bukan waktunya yang berubah, tapi perhatianku?",
+     "caption": "bukan waktu yang berubah",
+     "caption_adult": "kesimpulan: atensi yang berubah"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 760,
+     "ground": 1420,
+     "h": 610
+    },
+    {
+     "t": 2.0,
+     "expr": "shock",
+     "pose": "point",
+     "x": 756,
+     "ground": 1420,
+     "h": 612
+    }
+   ],
+   "props": [
+    {
+     "id": "bulb",
+     "t_in": 1.0,
+     "t_out": 5.0,
+     "x": 870,
+     "y": 330,
+     "h": 240,
+     "anim": "pop_float"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "from": 2.2,
+     "to": 4.6,
+     "card": {
+      "kind": "steps",
+      "title": "Cara melatih fokus",
+      "accent": "#1F6F78",
+      "steps": [
+       "Simpan HP",
+       "Matikan notifikasi",
+       "Satu tugas saja"
+      ]
+     }
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.6,
+     "to": 5.1
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "scene": "classroom",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.2,
+     "expr": "happy",
+     "pose": "float",
+     "x": 880,
+     "y": 1120,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.9,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Waktu tetap sama. Yang berubah cuma apa yang kita perhatikan.",
+     "caption": "waktu tetap sama",
+     "caption_adult": "durasi objektif tidak berubah"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau kita sadar, kita bisa pilih mau fokus ke mana saja.",
+     "caption": "kita bisa pilih fokus",
+     "caption_adult": "atensi bisa diarahkan"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "clock",
+     "t_in": 0.8,
+     "t_out": 6.8,
+     "x": 200,
+     "y": 320,
+     "h": 300,
+     "anim": "pop_float",
+     "beat": true
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.0
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 2.0,
+     "to": 4.2,
+     "focus": "boca",
+     "dim": 0.6,
+     "cone": true
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 4.2,
+     "to": 6.9,
+     "z": 1.5
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "scene": "city_street",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.6
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba ingat, kapan terakhir kamu merasa waktu berjalan cepat sekali?",
+     "caption": "kapan waktu terasa cepat",
+     "caption_adult": "refleksi pengalaman penonton"
+    },
+    {
+     "who": "sari",
+     "text": "Tadi pagi, pas main HP. Aku baru sadar sekarang.",
+     "caption": "baru sadar sekarang",
+     "caption_adult": "kesadaran setelah penjelasan"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 760,
+     "ground": 1420,
+     "h": 610
+    },
+    {
+     "t": 1.4,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 756,
+     "ground": 1420,
+     "h": 612
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 2.2,
+     "to": 4.2,
+     "z": 1.46
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.2,
+     "to": 6.0
+    }
+   ],
+   "props": []
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "city_street",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "phone_inside",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "classroom",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "park_evening",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_top",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "sari",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Leda",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Semua scene sudah ada di make_cartoon.py. Tamu sari muncul di 4 shot, bicara 3 baris.",
+ "scene_family": "city_time",
+ "motion_motif": "clock_tick_and_focus"
+}

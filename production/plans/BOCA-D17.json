@@ -1,0 +1,753 @@
+{
+ "id": "BOCA-D17",
+ "day": 17,
+ "title": "Kenapa perut berbunyi saat lapar?",
+ "series": "BMT",
+ "duration_target": 45,
+ "facts_status": "verified",
+ "cta": "Perut kamu bunyi kalau lapar?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "hunger_kitchen",
+ "motion_motif": "stomach_growl_and_timer",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Autonoe",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 137,
+  "est_seconds": 43,
+  "lumi_lines": 2,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "dokter_nia"
+ },
+ "analogy": {
+  "source": "panci presto yang uapnya sedikit tapi tetap berbunyi",
+  "maps": [
+   {
+    "real": "gas dan cairan yang bergerak menghasilkan suara",
+    "analogy": "uap di panci menghasilkan suara"
+   },
+   {
+    "real": "suara di dalam perut terdengar lebih keras",
+    "analogy": "uap sedikit di panci tetap berbunyi"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Panci presto yang bergoyang saat uapnya keluar adalah cita rasa rumah setiap orang."
+ },
+ "publish": {
+  "title": "BOCA — Kenapa perut berbunyi saat lapar?",
+  "description": "Bunyi perut berasal dari gerakan otot saluran pencernaan yang menggerakkan gas dan cairan; bunyi bisa terdengar saat lapar maupun setelah makan.\n\nBOCA berada di dalam saluran pencernaan seperti terowongan.\n\nPerut kamu bunyi kalau lapar?\n\n#teknologi #caramudah #belajarseru #ideinaja",
+  "hashtags": [
+   "#teknologi",
+   "#caramudah",
+   "#belajarseru",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "kitchen",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kok perut bisa bunyi justru saat kita sedang lapar, ya?",
+     "caption": "perut bunyi saat lapar",
+     "caption_adult": "Kok perut bisa bunyi justru saat kita sedang lapar, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Itu bukan tanda penyakit, cuma tanda perut lagi minta makan dan kerja.",
+     "caption": "bukan penyakit, cuma minta makan",
+     "caption_adult": "klarifikasi aman"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 2,
+   "scene": "bedroom",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Di dalam usus ada gas dan cairan yang terus bergerak setiap hari.",
+     "caption": "gas dan cairan bergerak di usus",
+     "caption_adult": "peran mikrobiota"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi bunyinya itu suara gas dan cairan yang sedang bergerak?",
+     "caption": "bunyi gas dan cairan",
+     "caption_adult": "klarifikasi sumber suara"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 3,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Gas itu ikut bergerak bersama cairan di dalam usus.",
+     "caption": "gas bergerak bersama cairan",
+     "caption_adult": "proses fermentasi"
+    },
+    {
+     "who": "boca",
+     "text": "Saat bergerak, gas dan cairan itu berbunyi di dalam perut.",
+     "caption": "gas dan cairan berbunyi",
+     "caption_adult": "mekanisme bunyi"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "clock",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 4,
+   "scene": "city_street",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan panci presto yang uapnya sedikit tapi tetap bunyi terus.",
+     "caption": "panci presto yang tetap bunyi",
+     "caption_adult": "analogi tekanan"
+    },
+    {
+     "who": "dokter_nia",
+     "text": "Jadi suara kecil di dalam perut terdengar lebih keras, ya?",
+     "caption": "suara kecil terdengar lebih keras",
+     "caption_adult": "resonansi rongga tubuh"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 5,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya, apalagi kalau perutnya kosong dan gasnya jadi banyak sekali.",
+     "caption": "perut kosong, gas banyak",
+     "caption_adult": "gas lebih banyak tanpa makanan"
+    },
+    {
+     "who": "lumi",
+     "text": "Berarti bunyi perut itu tanda tubuh kita kerja, ya?",
+     "caption": "tanda tubuh kita kerja",
+     "caption_adult": "klarifikasi positif"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 6,
+   "scene": "classroom",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau bunyinya sering disertai rasa sakit, itu masalah yang lain.",
+     "caption": "bunyi sering lalu sakit itu lain hal",
+     "caption_adult": "red flag medis"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau cuma bunyi tanpa sakit, biasanya tidak masalah.",
+     "caption": "cuma bunyi tanpa sakit tidak masalah",
+     "caption_adult": "reassurance"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 5.7
+  },
+  {
+   "n": 7,
+   "scene": "kitchen",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba ingat, terakhir kali perutmu bunyi, apakah kamu sedang lapar?",
+     "caption": "terakhir kali perut bunyi, lapar?",
+     "caption_adult": "refleksi pengalaman"
+    },
+    {
+     "who": "dokter_nia",
+     "text": "Hampir tiap sore, sebelum makan malam.",
+     "caption": "hampir tiap sore sebelum makan",
+     "caption_adult": "cerita pribadi"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "dokter_nia",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 5.1
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "Bunyi perut = gas dan cairan yang bergerak di saluran cerna, sering terdengar saat lapar. Rujukan: Mayo Clinic (stomach growling).",
+ "approved_at": "2026-11-15T08:16:40"
+}

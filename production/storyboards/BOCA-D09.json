@@ -1,0 +1,920 @@
+{
+ "id": "BOCA-D09",
+ "day": 9,
+ "series": "BMM",
+ "title": "Bagaimana HP bisa tahu lokasi kita?",
+ "duration_target": 60,
+ "facts_status": "pending",
+ "logline": "Sari bingung HP-nya tahu dia di mana. Boca menjelaskan sinyal satelit dan menara, lalu analogi penanda jalan.",
+ "hook": {
+  "pattern": "H1",
+  "claim": "Kok HP bisa tahu kita ada di mana, padahal kita nggak pernah bilang, ya?",
+  "gap": "Pertanyaannya, dari mana?",
+  "promise": "Ternyata dihitung dari sinyal satelit dan menara.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "sari"
+ },
+ "analogy": {
+  "source": "penanda jalan di setiap persimpangan",
+  "maps": [
+   {
+    "real": "beberapa satelit mengirim sinyal ke HP",
+    "analogy": "penanda jalan memberi tahu posisi ke pemeta"
+   },
+   {
+    "real": "HP menghitung jarak dari tiap satelit",
+    "analogy": "kita menghitung langkah dari tiap penanda"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Semua orang tahu penanda jalan dipakai untuk menentukan rute dan lokasi."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "twist",
+   "shot": 5
+  },
+  {
+   "beat": "explain",
+   "shot": 6
+  },
+  {
+   "beat": "payoff",
+   "shot": 7
+  },
+  {
+   "beat": "cta",
+   "shot": 8
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Leda",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 181,
+  "est_seconds": 57,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "city_top",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 8.1,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kok HP bisa tahu kita ada di mana, padahal kita nggak pernah bilang, ya?",
+     "caption": "HP tahu kita di mana",
+     "caption_adult": "Kok HP bisa tahu kita ada di mana, padahal kita nggak pernah bilang, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Jadi dia menebak, bukan tahu. Tapi tebakannya sering kali sangat akurat juga.",
+     "caption": "dia menebak, bukan tahu",
+     "caption_adult": "posisi dihitung dari sinyal"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "data_center",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 7.2,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Di dalam HP ada antena kecil yang menangkap sinyal dari satelit.",
+     "caption": "antena menangkap sinyal satelit",
+     "caption_adult": "perangkat GNSS"
+    },
+    {
+     "who": "sari",
+     "text": "Jadi satelit itu seperti pemandu yang selalu menunjuk arah ke mana saja?",
+     "caption": "satelit seperti pemandu arah",
+     "caption_adult": "fungsi menara sebagai acuan"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 3,
+   "scene": "data_center",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Satelit mengirim sinyal waktu, lalu HP menghitung jaraknya sendiri.",
+     "caption": "satelit kirim waktu, HP hitung jarak",
+     "caption_adult": "sinyal berisi waktu kedaluwarsa"
+    },
+    {
+     "who": "lumi",
+     "text": "HP membandingkan sinyal dari beberapa satelit sekaligus, lalu menghitung posisinya.",
+     "caption": "membandingkan sinyal beberapa satelit",
+     "caption_adult": "trilaterasi sederhana"
+    }
+   ],
+   "guest": [],
+   "layouts": [
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "card": {
+      "kind": "steps",
+      "title": "Cara HP menemukan kita",
+      "accent": "#D7263D",
+      "steps": [
+       "Satelit kirim waktu",
+       "HP hitung jarak",
+       "Titik ketemu"
+      ]
+     },
+     "on_line": 0,
+     "max_span": 3.7
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 4,
+   "scene": "city_street",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan penanda jalan di setiap persimpangan yang ada di sekitarmu sekarang ini.",
+     "caption": "penanda jalan di persimpangan",
+     "caption_adult": "analogi lokal"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau jaraknya dihitung dari beberapa penanda, lokasi kamu ketemu.",
+     "caption": "jarak dari penanda ketemu lokasi",
+     "caption_adult": "pemetaan triangulasi"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "phone",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "scene": "garden",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "HP menyimpan lokasi sementara, dan izinnya bisa kita matikan.",
+     "caption": "HP simpan lokasi sementara",
+     "caption_adult": "privasi lokasi"
+    },
+    {
+     "who": "boca",
+     "text": "Jadi yang menebak posisi itu HP-nya sendiri, bukan orang lain.",
+     "caption": "yang menebak posisi itu HP",
+     "caption_adult": "data tidak disimpan permanen"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 6,
+   "scene": "data_center",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 8.1,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau sinyalnya lemah, HP butuh waktu yang jauh lebih lama untuk ketemu titik.",
+     "caption": "sinyal lemah butuh waktu lama",
+     "caption_adult": "kualitas sinyal memengaruhi akurasi"
+    },
+    {
+     "who": "boca",
+     "text": "Karena itu di dalam gedung, sering kali sulit dapat lokasi yang tepat sekali.",
+     "caption": "di dalam gedung sulit dapat lokasi",
+     "caption_adult": "gangguan multipath"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 7,
+   "scene": "city_top",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 7.2,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Makanya di bawah langit terbuka, posisinya biasanya jauh lebih cepat ditemukan.",
+     "caption": "di bawah langit terbuka lebih cepat",
+     "caption_adult": "kondisi buka lebih mudah"
+    },
+    {
+     "who": "boca",
+     "text": "Sinyalnya lebih mudah diterima karena halangan yang ada di sekitarnya sedikit saja.",
+     "caption": "sinyal lebih mudah diterima",
+     "caption_adult": "halangan lebih sedikit"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 8,
+   "scene": "park_evening",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "est_seconds": 7.5,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba cek peta di HP-mu, seberapa jauh posisinya dengan titik yang sebenarnya?",
+     "caption": "cek peta, seberapa jauh posisinya",
+     "caption_adult": "ucun perbandingan akurasi"
+    },
+    {
+     "who": "sari",
+     "text": "Ternyata posisinya meleset juga. Jadi memang cuma perkiraan kasar, bukan pasti ya?",
+     "caption": "posisinya meleset, cuma perkiraan",
+     "caption_adult": "koreksi ekspektasi"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "sari",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "city_top",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "data_center",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_street",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "garden",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "park_evening",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "sari",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Leda",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Tamu sari bicara 3 baris. Semua scene sudah ada.",
+ "scene_family": "city_signal",
+ "motion_motif": "signal_triangulation"
+}

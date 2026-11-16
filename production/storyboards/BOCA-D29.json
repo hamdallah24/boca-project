@@ -1,0 +1,995 @@
+{
+ "id": "BOCA-D29",
+ "day": 29,
+ "series": "BLA",
+ "title": "Apa yang terjadi kalau Bumi tiba-tiba berhenti berputar?",
+ "duration_target": 60,
+ "facts_status": "pending",
+ "logline": "Ardi menonton Boca memutar bola lalu menghentikannya. Boca menjelaskan inersia dan dampak hipotetis kalau Bumi berhenti mendadak.",
+ "hook": {
+  "pattern": "H4",
+  "claim": "Apa yang terjadi kalau Bumi tiba-tiba berhenti berputar?",
+  "gap": "Kalau Bumi yang berhenti, apa yang terjadi pada isinya?",
+  "promise": "Skenario ini hipotetis, tapi inersia menjelaskan arah dampaknya.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "ardi"
+ },
+ "analogy": {
+  "source": "penumpang angkot yang terdorong saat sopir mengerem mendadak",
+  "maps": [
+   {
+    "real": "benda di permukaan Bumi masih bergerak saat rotasi berhenti",
+    "analogy": "tubuh penumpang masih bergerak saat angkot berhenti mendadak"
+   },
+   {
+    "real": "gerak yang bertahan itu disebut inersia",
+    "analogy": "dorongan ke depan terasa tanpa didorong siapa pun"
+   }
+  ],
+  "line_shot": 3,
+  "why_it_works": "Hampir semua orang pernah terdorong ke depan saat kendaraan mengerem mendadak."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "explain",
+   "shot": 5
+  },
+  {
+   "beat": "twist",
+   "shot": 6
+  },
+  {
+   "beat": "payoff",
+   "shot": 7
+  },
+  {
+   "beat": "payoff",
+   "shot": 8
+  },
+  {
+   "beat": "cta",
+   "shot": 9
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Fenrir",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 183,
+  "est_seconds": 58,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 9,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "space",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Apa yang terjadi kalau Bumi tiba-tiba berhenti berputar?",
+     "caption": "kalau Bumi berhenti berputar",
+     "caption_adult": "apa yang terjadi kalau Bumi berhenti berputar"
+    },
+    {
+     "who": "ardi",
+     "text": "Semua benda yang ada di atasnya masih ingin terus bergerak, ya?",
+     "caption": "benda masih bergerak",
+     "caption_adult": "benda masih bergerak"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "space",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bumi berputar terus, dan putaran itu yang mengatur siang dan malam.",
+     "caption": "putaran atur siang malam",
+     "caption_adult": "rotasi atur siang malam"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau berhenti mendadak, benda di permukaan masih punya gerak.",
+     "caption": "benda masih punya gerak",
+     "caption_adult": "benda masih bergerak"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 3,
+   "scene": "beach",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.9,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Ingat saat bus mengerem mendadak? Tubuhmu pasti ikut terdorong ke depan.",
+     "caption": "badan terdorong ke depan",
+     "caption_adult": "badan terdorong ke depan"
+    },
+    {
+     "who": "ardi",
+     "text": "Jadi air laut dan udara juga ikut terdorong ke depan, ya?",
+     "caption": "air dan udara terdorong",
+     "caption_adult": "air dan udara terdorong"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 4,
+   "scene": "city_top",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 7.2,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya. Angin bisa menjadi sangat kencang dalam skenario ini, kata ilmuwan.",
+     "caption": "angin jadi sangat kencang",
+     "caption_adult": "angin jadi sangat kencang"
+    },
+    {
+     "who": "boca",
+     "text": "Air laut bisa bergeser jauh dari tempat yang biasanya, kata para ilmuwan.",
+     "caption": "air laut bisa bergeser",
+     "caption_adult": "air laut bisa bergeser"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "clock",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "scene": "sunset",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Gerak yang tetap ada itu namanya inersia, bukan kekuatan gaib apa pun.",
+     "caption": "namanya inersia",
+     "caption_adult": "namanya inersia"
+    },
+    {
+     "who": "boca",
+     "text": "Benda memang cenderung mempertahankan gerak yang sudah dimilikinya sendiri.",
+     "caption": "benda bertahan pada geraknya",
+     "caption_adult": "benda bertahan pada geraknya"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 6,
+   "scene": "classroom",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Akibatnya bisa sangat luas, tapi ini cuma skenario khayalan saja, ya.",
+     "caption": "ini skenario khayalan",
+     "caption_adult": "ini hanya skenario"
+    },
+    {
+     "who": "boca",
+     "text": "Detailnya bergantung pada cara Bumi berhenti, bukan hanya satu versi.",
+     "caption": "tergantung cara berhenti",
+     "caption_adult": "tergantung cara berhenti"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 7,
+   "scene": "lake_ice",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Satu hari bisa jadi jauh lebih panjang dari biasanya, lho.",
+     "caption": "satu hari bisa lebih panjang",
+     "caption_adult": "satu hari bisa lebih panjang"
+    },
+    {
+     "who": "boca",
+     "text": "Dan itu baru satu perubahan dari banyak hal lainnya.",
+     "caption": "baru satu perubahan",
+     "caption_adult": "baru satu perubahan"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 8,
+   "scene": "sunset",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 880,
+     "y": 1050,
+     "h": 240
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Untungnya Bumi itu tidak punya tombol untuk berhenti secara mendadak.",
+     "caption": "tidak ada tombol berhenti",
+     "caption_adult": "tidak ada tombol berhenti"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi kita masih bisa lihat matahari terbit besok pagi?",
+     "caption": "masih lihat matahari terbit",
+     "caption_adult": "masih lihat matahari terbit"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 9,
+   "scene": "space",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.6
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau Bumi punya tombol pause, kamu mau tekan tombolnya sekarang?",
+     "caption": "mau tekan tombol pause?",
+     "caption_adult": "mau tekan tombol pause?"
+    },
+    {
+     "who": "ardi",
+     "text": "Jangan! Aku masih ingin lihat matahari terbit setiap hari.",
+     "caption": "masih ingin lihat matahari",
+     "caption_adult": "masih ingin lihat matahari"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "ardi",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "space",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "beach",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_top",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "sunset",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "classroom",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "lake_ice",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "ardi",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Fenrir",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Tamu ardi bicara 3 baris. Dampak disebut hipotetis, bukan ramalan pasti.",
+ "scene_family": "earth_space",
+ "motion_motif": "rotation_stop_and_inertia"
+}

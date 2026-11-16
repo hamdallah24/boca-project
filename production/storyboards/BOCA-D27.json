@@ -1,0 +1,986 @@
+{
+ "id": "BOCA-D27",
+ "day": 27,
+ "series": "BBU",
+ "title": "Apa yang membuat harga saham naik turun?",
+ "duration_target": 60,
+ "facts_status": "pending",
+ "logline": "Kak Bima melihat grafik saham loncat-loncat. Boca menjelaskan saham, pembeli dan penjual, serta berita yang menggerakkan harga.",
+ "hook": {
+  "pattern": "H3",
+  "claim": "Coba tebak, dalam satu hari harga saham bisa berubah berapa kali?",
+  "gap": "Angkanya loncat-loncat terus tanpa pola yang jelas.",
+  "promise": "Harga bergerak karena banyak orang menilai masa depan perusahaan.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "kak_bima"
+ },
+ "analogy": {
+  "source": "tukar kartu koleksi di sekolah yang makin mahal saat diburu",
+  "maps": [
+   {
+    "real": "harga saham naik saat banyak yang ingin membeli",
+    "analogy": "kartu langka makin mahal saat banyak yang mencarinya"
+   },
+   {
+    "real": "harga turun saat banyak yang ingin menjual",
+    "analogy": "kartu biasa murah karena stoknya banyak"
+   }
+  ],
+  "line_shot": 5,
+  "why_it_works": "Tukar kartu koleksi adalah permainan sehari-hari yang aturannya mirip lelang kecil."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "explain",
+   "shot": 5
+  },
+  {
+   "beat": "twist",
+   "shot": 6
+  },
+  {
+   "beat": "payoff",
+   "shot": 7
+  },
+  {
+   "beat": "payoff",
+   "shot": 8
+  },
+  {
+   "beat": "cta",
+   "shot": 9
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Orus",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 181,
+  "est_seconds": 57,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 9,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "stock_board",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba tebak, dalam satu hari harga saham bisa berubah berapa kali?",
+     "caption": "saham berubah berapa kali",
+     "caption_adult": "Coba tebak, dalam satu hari harga saham bisa berubah berapa kali?"
+    },
+    {
+     "who": "kak_bima",
+     "text": "Sepuluh kali? Aku pernah lihat angkanya loncat-loncat terus sepanjang hari.",
+     "caption": "angkanya loncat-loncat",
+     "caption_adult": "angka meloncat-loncat"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "stock_board",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "read",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Saham itu potongan kecil dari kepemilikan sebuah perusahaan besar.",
+     "caption": "saham itu potongan perusahaan",
+     "caption_adult": "saham adalah potongan perusahaan"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau perusahaannya untung, pemilik saham ikut dapat bagian keuntungan.",
+     "caption": "untung perusahaan dibagi",
+     "caption_adult": "keuntungan perusahaan dibagi"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 3,
+   "scene": "city_top",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 7.5,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Harga bergerak karena ada orang yang mau beli dan ada yang mau jual.",
+     "caption": "ada pembeli dan penjual",
+     "caption_adult": "ada pembeli dan penjual"
+    },
+    {
+     "who": "boca",
+     "text": "Transaksi baru terjadi saat harga beli dan harga jual akhirnya cocok.",
+     "caption": "harga cocok, transaksi jalan",
+     "caption_adult": "harga cocok, transaksi terjadi"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "coin_stack",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "scene": "market",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau pembelinya banyak dan penjualnya sedikit, harga cenderung naik.",
+     "caption": "pembeli banyak, harga naik",
+     "caption_adult": "pembeli banyak, harga naik"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau penjualnya banyak dan pembelinya sedikit, harga cenderung turun.",
+     "caption": "penjual banyak, harga turun",
+     "caption_adult": "penjual banyak, harga turun"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 5,
+   "scene": "garden",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Ingat tukar kartu koleksi di sekolah? Kartu yang diburu jadi mahal.",
+     "caption": "kartu diburu jadi mahal",
+     "caption_adult": "kartu buruan jadi mahal"
+    },
+    {
+     "who": "kak_bima",
+     "text": "Iya, kartu langka bisa ditukar dengan tiga kartu biasa, kan?",
+     "caption": "kartu langka ditukar tiga",
+     "caption_adult": "kartu langka bernilai tiga"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 6,
+   "scene": "phone_inside",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Berita dan harapan orang banyak juga ikut menggerakkan harga saham.",
+     "caption": "berita ikut menggerakkan",
+     "caption_adult": "berita ikut menggerakkan"
+    },
+    {
+     "who": "boca",
+     "text": "Kabar baik bikin orang yakin, kabar buruk bikin banyak orang panik.",
+     "caption": "kabar baik, kabar buruk",
+     "caption_adult": "kabar baik dan kabar buruk"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 7,
+   "scene": "park_evening",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 5.7,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jadi grafik itu cuma catatan kesepakatan orang, bukan ramalan masa depan.",
+     "caption": "grafik bukan ramalan",
+     "caption_adult": "grafik bukan ramalan"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi bisa untung, bisa juga rugi, ya?",
+     "caption": "bisa untung, bisa rugi",
+     "caption_adult": "bisa untung atau rugi"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 8,
+   "scene": "city_top",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Yang penting dipahami dulu: saham itu bukan tabungan yang pasti aman.",
+     "caption": "saham bukan tabungan aman",
+     "caption_adult": "saham bukan tabungan aman"
+    },
+    {
+     "who": "boca",
+     "text": "Risikonya nyata, jadi jangan pakai uang yang dibutuhkan besok pagi.",
+     "caption": "jangan pakai uang besok",
+     "caption_adult": "jangan pakai uang jangka pendek"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 9,
+   "scene": "stock_board",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.6
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau punya uang lebih, kamu mau pilih saham atau tabungan?",
+     "caption": "saham atau tabungan?",
+     "caption_adult": "saham atau tabungan?"
+    },
+    {
+     "who": "kak_bima",
+     "text": "Aku masih pilih yang aku pahami dulu, pelan-pelan saja.",
+     "caption": "pilih yang dipahami dulu",
+     "caption_adult": "pilih yang dipahami dulu"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "kak_bima",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "stock_board",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_top",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "market",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "garden",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "phone_inside",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "park_evening",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "kak_bima",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Orus",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Tamu kak_bima bicara 3 baris. Tidak ada ajakan membeli saham tertentu.",
+ "scene_family": "market_chart",
+ "motion_motif": "chart_rise_and_fall"
+}

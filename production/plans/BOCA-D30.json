@@ -1,0 +1,1184 @@
+{
+ "id": "BOCA-D30",
+ "day": 30,
+ "title": "Apakah alam semesta punya ujung?",
+ "series": "BLA",
+ "duration_target": 90,
+ "facts_status": "verified",
+ "cta": "Menurutmu alam semesta ada ujungnya?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "cosmos_edge",
+ "motion_motif": "expansion_and_horizon",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Leda",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 274,
+  "est_seconds": 86,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 9,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 10,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 11,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 12,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "sari"
+ },
+ "analogy": {
+  "source": "lampu senter di halaman gelap yang hanya menerangi sebagian",
+  "maps": [
+   {
+    "real": "alam semesta teramati adalah wilayah yang cahayanya sampai ke kita",
+    "analogy": "halaman yang terlihat hanya sejauh cahaya senter"
+   },
+   {
+    "real": "batas pengamatan bukan tepi alam semesta",
+    "analogy": "batas cahaya bukan ujung halaman"
+   }
+  ],
+  "line_shot": 6,
+  "why_it_works": "Lampu senter di halaman gelap langsung menunjukkan beda antara batas cahaya dan batas tempat."
+ },
+ "publish": {
+  "title": "BOCA — Apakah alam semesta punya ujung?",
+  "description": "Alam semesta teramati memiliki batas pengamatan karena usia alam semesta dan kecepatan cahaya; itu tidak otomatis berarti seluruh alam semesta memiliki tepi fisik.\n\nBOCA menjelajah galaksi, nebula, dan peta alam semesta teramati.\n\nMenurutmu alam semesta ada ujungnya?\n\n#bumi #sains #faktaunik #ideinaja",
+  "hashtags": [
+   "#bumi",
+   "#sains",
+   "#faktaunik",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "galaxy",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau kita terbang terus ke luar angkasa, nanti ketemu ujungnya nggak?",
+     "caption": "alam semesta punya ujung?",
+     "caption_adult": "Kalau kita terbang terus ke luar angkasa, nanti ketemu ujungnya nggak?"
+    },
+    {
+     "who": "boca",
+     "text": "Pertanyaan bagus sekali. Jawabannya tidak sesederhana punya ujung atau tidak, lho.",
+     "caption": "tidak sesederhana itu",
+     "caption_adult": "tidak sesederhana itu"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 2,
+   "scene": "space",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kita mulai dari yang terdekat dulu: Bumi, Matahari, lalu bintang lain.",
+     "caption": "mulai dari Bumi",
+     "caption_adult": "mulai dari Bumi"
+    },
+    {
+     "who": "boca",
+     "text": "Semuanya berkumpul dalam satu galaksi yang sangat luas sekali, lho.",
+     "caption": "satu galaksi sangat luas",
+     "caption_adult": "satu galaksi sangat luas"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 3,
+   "scene": "galaxy",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Galaksi kita punya miliaran bintang, dan masih ada galaksi lain, lho.",
+     "caption": "miliaran bintang",
+     "caption_adult": "miliaran bintang"
+    },
+    {
+     "who": "sari",
+     "text": "Banyak sekali. Terus, di mana sebenarnya ujung dari semua ini, Boca?",
+     "caption": "di mana ujungnya?",
+     "caption_adult": "di mana ujungnya?"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 4,
+   "scene": "atmosphere",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Cahaya butuh waktu yang lama untuk sampai ke mata kita yang ada di Bumi.",
+     "caption": "cahaya butuh waktu",
+     "caption_adult": "cahaya butuh waktu"
+    },
+    {
+     "who": "boca",
+     "text": "Makin jauh sumbernya, makin lama pula cahayanya berjalan menuju mata kita.",
+     "caption": "makin jauh, makin lama",
+     "caption_adult": "makin jauh, makin lama"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "bulb",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 5,
+   "scene": "prism",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "read",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Cahaya dari bintang yang jauh membawa warna dan petunjuk yang sangat penting.",
+     "caption": "cahaya bawa petunjuk",
+     "caption_adult": "cahaya membawa petunjuk"
+    },
+    {
+     "who": "boca",
+     "text": "Dari situ kita bisa tahu jarak bintang dan juga umur alam semesta ini.",
+     "caption": "tahu jarak dan umur",
+     "caption_adult": "tahu jarak dan umur"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 6,
+   "scene": "dark_forest",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan sebuah lampu senter dinyalakan di halaman rumah yang gelap gulita.",
+     "caption": "lampu senter di halaman gelap",
+     "caption_adult": "lampu senter di halaman gelap"
+    },
+    {
+     "who": "boca",
+     "text": "Kita hanya bisa melihat sampai batas cahaya itu menerangi halaman rumah saja.",
+     "caption": "sampai batas cahaya",
+     "caption_adult": "sampai batas cahaya"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.2
+  },
+  {
+   "n": 7,
+   "scene": "park_sunleft",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Di luar lingkaran cahaya itu, halaman tetap ada, cuma tidak terlihat oleh kita.",
+     "caption": "halaman tetap ada",
+     "caption_adult": "halaman tetap ada"
+    },
+    {
+     "who": "sari",
+     "text": "Jadi batas yang kita lihat itu bukan ujung halaman, ya?",
+     "caption": "bukan ujung halaman",
+     "caption_adult": "bukan ujung halaman"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.2
+  },
+  {
+   "n": 8,
+   "scene": "space",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Tepat sekali. Yang kita punya adalah batas pengamatan, bukan dinding raksasa, kan?",
+     "caption": "batas pengamatan, bukan dinding",
+     "caption_adult": "batas pengamatan, bukan dinding"
+    },
+    {
+     "who": "boca",
+     "text": "Alam semesta teramati itu bola cahaya yang sempat sampai ke mata kita.",
+     "caption": "bola cahaya yang sampai",
+     "caption_adult": "bola cahaya yang sampai"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.5
+  },
+  {
+   "n": 9,
+   "scene": "sunset",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Karena usia alam semesta ini terbatas, maka cahayanya juga ikut terbatas.",
+     "caption": "usia terbatas, cahaya terbatas",
+     "caption_adult": "usia terbatas, cahaya terbatas"
+    },
+    {
+     "who": "boca",
+     "text": "Jadi ada wilayah yang luas dan belum sempat kita lihat sampai sekarang ini.",
+     "caption": "ada wilayah belum terlihat",
+     "caption_adult": "ada wilayah belum terlihat"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.5
+  },
+  {
+   "n": 10,
+   "scene": "galaxy",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "think",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "confused",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Apakah di luar sana ada ujung? Kita belum tahu jawaban pastinya.",
+     "caption": "belum tahu jawabannya",
+     "caption_adult": "belum tahu jawabannya"
+    },
+    {
+     "who": "boca",
+     "text": "Bisa jadi tidak ada tepi sama sekali, bisa jadi bentuknya lain lagi.",
+     "caption": "mungkin tanpa tepi",
+     "caption_adult": "mungkin tanpa tepi"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.2
+  },
+  {
+   "n": 11,
+   "scene": "dark_forest",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 880,
+     "y": 1050,
+     "h": 240
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Sains itu tidak takut mengatakan belum tahu, asal terus mencari jawabannya.",
+     "caption": "sains berani bilang belum tahu",
+     "caption_adult": "sains berani bilang belum tahu"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi pertanyaan besar itu belum punya jawaban yang pastinya, ya?",
+     "caption": "belum ada jawaban pasti",
+     "caption_adult": "belum ada jawaban pasti"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 12,
+   "scene": "sunset",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "sparkle",
+     0.7
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Belum. Dan itu justru yang membuat kita semua jadi terus penasaran.",
+     "caption": "justru bikin penasaran",
+     "caption_adult": "justru membuat penasaran"
+    },
+    {
+     "who": "boca",
+     "text": "Menurutmu, alam semesta ini punya ujung atau tidak, sih, sebenarnya?",
+     "caption": "punya ujung atau tidak?",
+     "caption_adult": "punya ujung atau tidak?"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.6
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "HIGH-RISK. Yang kita lihat adalah alam semesta teramati (bola cahaya), bukan tepi; belum diketahui apakah ada ujung. Rujukan: ESO Supernova (Where is the centre of the Universe), Britannica/BBC Sky at Night (observable universe).",
+ "approved_at": "2026-11-15T08:16:40"
+}

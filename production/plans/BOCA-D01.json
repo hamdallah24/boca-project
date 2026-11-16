@@ -1,0 +1,577 @@
+{
+  "id": "BOCA-D01",
+  "day": 1,
+  "title": "Kenapa uang bisa habis padahal nggak beli apa-apa?",
+  "series": "KYB",
+  "duration_target": 45,
+  "facts_status": "verified",
+  "cta": "Kamu pernah kehilangan uang kecil ke mana?",
+  "status": "approved",
+  "needs_review": false,
+  "llm_drafted_lines": 3,
+  "notes": "Auto-draft dari Content Bible. Tinjau narasi, caption, scene, dan acting sebelum publish.",
+  "publish": {
+    "title": "BOCA — Kenapa uang bisa habis padahal nggak beli apa-apa?",
+    "description": "Menjelaskan pengeluaran kecil, kebocoran uang, dan bagaimana transaksi kecil bisa menumpuk.\n\nKamar BOCA yang berubah menjadi kota mini dengan toko-toko kecil dan aliran koin.\n\nKamu pernah kehilangan uang kecil ke mana?\n\n#faktaunik #belajarseru #edukasicuma #ideinaja",
+    "hashtags": [
+      "#faktaunik",
+      "#belajarseru",
+      "#edukasicuma",
+      "#ideinaja"
+    ],
+    "category": "Education"
+  },
+  "shots": [
+    {
+      "n": 1,
+      "scene": "park",
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Pernah nggak uangnya tiba-tiba habis, padahal rasanya nggak beli apa-apa?",
+          "caption": "Pernah nggak uangnya tiba-tiba habis, padahal rasanya nggak beli",
+          "caption_adult": "Pernah nggak uangnya tiba-tiba habis, padahal rasanya nggak beli apa-apa?"
+        }
+      ],
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "shock",
+          "pose": "walk",
+          "arms": [
+            0
+          ],
+          "x": -300,
+          "ground": 1400,
+          "h": 600
+        },
+        {
+          "t": 0.95,
+          "expr": "shock",
+          "pose": "walk",
+          "arms": [
+            0
+          ],
+          "x": 170,
+          "ground": 1400,
+          "h": 610
+        },
+        {
+          "t": 1.3,
+          "expr": "shock",
+          "pose": "stand",
+          "arms": [
+            0,
+            3,
+            2
+          ],
+          "period": 0.7,
+          "x": 290,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 2.3,
+          "expr": "shock",
+          "pose": "point",
+          "arms": [
+            2
+          ],
+          "x": 312,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 3.4,
+          "expr": "neutral",
+          "pose": "stand",
+          "arms": [
+            3,
+            2,
+            1
+          ],
+          "period": 0.75,
+          "x": 300,
+          "ground": 1400,
+          "h": 620
+        }
+      ],
+      "lumi": [
+        {
+          "t": 0.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 860,
+          "y": 1230,
+          "h": 230
+        },
+        {
+          "t": 2.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 800,
+          "y": 1180,
+          "h": 235
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "pop",
+          1.0
+        ],
+        [
+          2.6,
+          "whoosh",
+          0.45
+        ]
+      ],
+      "cam": {
+        "fx": [
+          0.3,
+          0.68
+        ],
+        "fy": [
+          0.35,
+          0.62
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "scene": "park",
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Jajan receh yang terlihat sepele ternyata bisa bikin dompet cepat kosong tanpa disadari.",
+          "caption": "Jajan receh yang terlihat sepele ternyata bisa bikin dompet",
+          "caption_adult": "Jajan receh yang terlihat sepele ternyata bisa bikin dompet cepat kosong tanpa disadari."
+        }
+      ],
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "focus",
+          "pose": "stand",
+          "arms": [
+            0,
+            3
+          ],
+          "period": 0.75,
+          "x": 250,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 1.6,
+          "expr": "focus",
+          "pose": "point",
+          "arms": [
+            2
+          ],
+          "x": 268,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 2.9,
+          "expr": "neutral",
+          "pose": "stand",
+          "arms": [
+            3,
+            2
+          ],
+          "period": 0.85,
+          "x": 255,
+          "ground": 1400,
+          "h": 620
+        }
+      ],
+      "lumi": [
+        {
+          "t": 0.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 860,
+          "y": 1230,
+          "h": 230
+        },
+        {
+          "t": 2.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 800,
+          "y": 1180,
+          "h": 235
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "whoosh",
+          0.7
+        ]
+      ],
+      "cam": {
+        "fx": [
+          0.3,
+          0.68
+        ],
+        "fy": [
+          0.35,
+          0.62
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "scene": "park",
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Wah, ternyata uang receh yang sering jajan sembarangan bisa jadi gunung koin ya!",
+          "caption": "Wah, ternyata uang receh yang sering jajan sembarangan bisa",
+          "caption_adult": "Wah, ternyata uang receh yang sering jajan sembarangan bisa jadi gunung koin ya!"
+        }
+      ],
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "focus",
+          "pose": "stand",
+          "arms": [
+            0,
+            3
+          ],
+          "period": 0.75,
+          "x": 250,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 1.6,
+          "expr": "focus",
+          "pose": "point",
+          "arms": [
+            2
+          ],
+          "x": 268,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 2.9,
+          "expr": "neutral",
+          "pose": "stand",
+          "arms": [
+            3,
+            2
+          ],
+          "period": 0.85,
+          "x": 255,
+          "ground": 1400,
+          "h": 620
+        }
+      ],
+      "lumi": [
+        {
+          "t": 0.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 860,
+          "y": 1230,
+          "h": 230
+        },
+        {
+          "t": 2.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 800,
+          "y": 1180,
+          "h": 235
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "whoosh",
+          0.7
+        ]
+      ],
+      "cam": {
+        "fx": [
+          0.3,
+          0.68
+        ],
+        "fy": [
+          0.35,
+          0.62
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "scene": "park",
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Jajan receh yang dikumpul terus, eh ternyata bisa jadi gunung uang yang lumayan besar.",
+          "caption": "Jajan receh yang dikumpul terus, eh ternyata bisa jadi",
+          "caption_adult": "Jajan receh yang dikumpul terus, eh ternyata bisa jadi gunung uang yang lumayan besar."
+        }
+      ],
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "focus",
+          "pose": "stand",
+          "arms": [
+            0,
+            3
+          ],
+          "period": 0.75,
+          "x": 250,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 1.6,
+          "expr": "focus",
+          "pose": "point",
+          "arms": [
+            2
+          ],
+          "x": 268,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 2.9,
+          "expr": "neutral",
+          "pose": "stand",
+          "arms": [
+            3,
+            2
+          ],
+          "period": 0.85,
+          "x": 255,
+          "ground": 1400,
+          "h": 620
+        }
+      ],
+      "lumi": [
+        {
+          "t": 0.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 860,
+          "y": 1230,
+          "h": 230
+        },
+        {
+          "t": 2.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 800,
+          "y": 1180,
+          "h": 235
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "whoosh",
+          0.7
+        ]
+      ],
+      "cam": {
+        "fx": [
+          0.3,
+          0.68
+        ],
+        "fy": [
+          0.35,
+          0.62
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "scene": "park_evening",
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Ternyata bukan uangnya menghilang. Dia pergi sedikit-sedikit tanpa pamit!",
+          "caption": "Ternyata bukan uangnya menghilang.",
+          "caption_adult": "Ternyata bukan uangnya menghilang. Dia pergi sedikit-sedikit tanpa pamit!"
+        }
+      ],
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "focus",
+          "pose": "stand",
+          "arms": [
+            0,
+            2
+          ],
+          "period": 0.8,
+          "x": 250,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 1.2,
+          "expr": "neutral",
+          "pose": "point",
+          "arms": [
+            2
+          ],
+          "x": 265,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 2.4,
+          "expr": "happy",
+          "pose": "celebrate",
+          "arms": [
+            0
+          ],
+          "x": 258,
+          "ground": 1400,
+          "h": 620
+        }
+      ],
+      "lumi": [
+        {
+          "t": 0.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 860,
+          "y": 1230,
+          "h": 230
+        },
+        {
+          "t": 1.8,
+          "expr": "happy",
+          "pose": "cheer",
+          "x": 790,
+          "y": 1150,
+          "h": 245
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "sparkle",
+          0.9
+        ]
+      ],
+      "cam": {
+        "fx": [
+          0.3,
+          0.68
+        ],
+        "fy": [
+          0.35,
+          0.62
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "scene": "park_evening",
+      "dialogue": [
+        {
+          "who": "boca",
+          "text": "Kamu pernah kehilangan uang kecil ke mana?",
+          "caption": "Kamu pernah kehilangan uang kecil ke mana?",
+          "caption_adult": "Tulis di komentar."
+        }
+      ],
+      "keys": [
+        {
+          "t": 0.0,
+          "expr": "happy",
+          "pose": "walk",
+          "arms": [
+            0
+          ],
+          "x": -240,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 0.7,
+          "expr": "happy",
+          "pose": "stand",
+          "arms": [
+            0,
+            1
+          ],
+          "period": 0.7,
+          "x": 295,
+          "ground": 1400,
+          "h": 620
+        },
+        {
+          "t": 1.55,
+          "expr": "happy",
+          "pose": "wave",
+          "arms": [
+            1,
+            3
+          ],
+          "period": 0.75,
+          "x": 315,
+          "ground": 1400,
+          "h": 620
+        }
+      ],
+      "lumi": [
+        {
+          "t": 0.0,
+          "expr": "happy",
+          "pose": "float",
+          "x": 860,
+          "y": 1230,
+          "h": 230
+        },
+        {
+          "t": 1.4,
+          "expr": "happy",
+          "pose": "wave",
+          "x": 800,
+          "y": 1160,
+          "h": 240
+        }
+      ],
+      "sfx": [
+        [
+          0.05,
+          "sparkle",
+          1.0
+        ],
+        [
+          1.45,
+          "pop",
+          0.8
+        ]
+      ],
+      "cam": {
+        "fx": [
+          0.3,
+          0.62
+        ],
+        "fy": [
+          0.45,
+          0.62
+        ]
+      }
+    }
+  ],
+  "facts_verified_at": "2026-11-14T11:19:03",
+  "facts_note": "Klaim umum tanpa angka/statistik (kebocoran uang receh). Tidak ada data yang perlu sitasi. Review manusia: klaim aman.",
+  "approved_at": "2026-11-14T11:19:04"
+}

@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+.DS_Store
+Thumbs.db
+
+# secrets / credentials
+.env
+*.env
+production/credentials.json
+production/token.json
+production/user_token.txt
+production/.gh_token
+production/.telegraph_token
+production/publish_log.json
+production/state.json
+production/*.lock
+auth/*token*
+auth/*credential*
+auth/*secret*
+client_secret*.json
+
+# caches / logs / generated
+production/cache/
+production/logs/
+logs/
+*.log
+
+# outputs / renders
+*.mp4
+*.wav
+*.m4a
+*.srt
+BOCA_DAILY/

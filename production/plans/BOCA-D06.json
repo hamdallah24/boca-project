@@ -1,0 +1,764 @@
+{
+ "id": "BOCA-D06",
+ "day": 6,
+ "title": "Kenapa laut rasanya asin?",
+ "series": "KYB",
+ "duration_target": 45,
+ "facts_status": "verified",
+ "cta": "Kamu suka laut atau gunung?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "ocean_shore",
+ "motion_motif": "salt_cycle_and_evaporation",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Kore",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 135,
+  "est_seconds": 43,
+  "lumi_lines": 2,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "bu_ratna"
+ },
+ "analogy": {
+  "source": "sup yang direbus sampai airnya menyusut",
+  "maps": [
+   {
+    "real": "air laut menguap ke langit",
+    "analogy": "air sup menguap jadi uap"
+   },
+   {
+    "real": "garam tertinggal di laut",
+    "analogy": "garam tertinggal di panci, kuah makin asin"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Semua orang pernah merebus kuah terlalu lama dan merasakan rasanya jadi lebih asin."
+ },
+ "publish": {
+  "title": "BOCA — Kenapa laut rasanya asin?",
+  "description": "Garam dan mineral terlarut masuk ke laut melalui pelapukan batuan, sungai, dan proses geologi lainnya.\n\nPantai, sungai, bebatuan, lalu perjalanan menuju dasar laut.\n\nKamu suka laut atau gunung?\n\n#faktaunik #belajarseru #edukasicuma #ideinaja",
+  "hashtags": [
+   "#faktaunik",
+   "#belajarseru",
+   "#edukasicuma",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "beach",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 620
+    },
+    {
+     "t": 1.8,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 622
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kenapa air laut asin, padahal air hujan rasanya tawar, ya?",
+     "caption": "laut asin, hujan tawar",
+     "caption_adult": "Kenapa air laut asin, padahal air hujan rasanya tawar, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Iya, asinnya bukan dari ikan. Asalnya dari batu di darat.",
+     "caption": "asinnya dari batu darat",
+     "caption_adult": "sumber garam laut"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 2,
+   "scene": "beach",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 620
+    },
+    {
+     "t": 2.2,
+     "expr": "neutral",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 622
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "bu_ratna",
+     "text": "Batu di darat? Kok bisa sampai masuk ke dalam laut?",
+     "caption": "batu bisa masuk laut",
+     "caption_adult": "pertanyaan mekanisme"
+    },
+    {
+     "who": "boca",
+     "text": "Air hujan mengikis batu pelan-pelan, lalu membawa garamnya.",
+     "caption": "hujan mengikis batu",
+     "caption_adult": "pelapukan batuan"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 5.7
+  },
+  {
+   "n": 3,
+   "scene": "underwater",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 648
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 653
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 850,
+     "y": 1180,
+     "h": 236
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Garam itu larut di air, lalu sungai membawanya sampai ke laut.",
+     "caption": "sungai membawa garam",
+     "caption_adult": "transport garam lewat sungai"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi sungai yang mengantar garamnya, bukan ikan yang asin?",
+     "caption": "sungai pengantar garam",
+     "caption_adult": "koreksi kesalahpahaman umum"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "INFOGRAPHIC_CARD",
+     "card": {
+      "kind": "steps",
+      "title": "Kenapa laut asin",
+      "accent": "#1F6F78",
+      "steps": [
+       "Hujan membawa garam",
+       "Air menguap",
+       "Garam tertinggal"
+      ]
+     },
+     "on_line": 0,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 4,
+   "scene": "market",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [
+    [
+     0.05,
+     "sparkle",
+     0.7
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan kamu merebus sup di panci, lalu airnya menguap.",
+     "caption": "sup direbus, air menguap",
+     "caption_adult": "analogi penguapan"
+    },
+    {
+     "who": "boca",
+     "text": "Kuahnya makin sedikit, tapi garamnya tetap. Rasanya jadi lebih asin.",
+     "caption": "kuah sedikit, garam tetap",
+     "caption_adult": "konsentrasi garam naik"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "hourglass",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 5,
+   "scene": "underwater",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Di laut juga begitu. Air menguap ke langit, garamnya tertinggal.",
+     "caption": "air menguap, garam tinggal",
+     "caption_adult": "siklus air dan garam"
+    },
+    {
+     "who": "lumi",
+     "text": "Berarti laut makin asin sedikit demi sedikit, ya?",
+     "caption": "laut makin asin perlahan",
+     "caption_adult": "akumulasi garam"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 5.7
+  },
+  {
+   "n": 6,
+   "scene": "sunset",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Iya, tapi sangat lambat. Butuh jutaan tahun sampai seasin ini.",
+     "caption": "butuh jutaan tahun",
+     "caption_adult": "skala waktu geologis"
+    },
+    {
+     "who": "boca",
+     "text": "Dan garam itu juga yang membuat kita bisa berenang lebih mudah.",
+     "caption": "garam membantu berenang",
+     "caption_adult": "daya apung air laut"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 7,
+   "scene": "beach",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 620
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 622
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba cicipi setetes air laut. Asinnya itu rasa batu purba.",
+     "caption": "asinnya rasa batu purba",
+     "caption_adult": "garam sebagai jejak geologis"
+    },
+    {
+     "who": "bu_ratna",
+     "text": "Jadi asinnya laut itu cerita panjang dari gunung, ya?",
+     "caption": "cerita panjang dari gunung",
+     "caption_adult": "rangkuman analogi"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "bu_ratna",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.0
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "Garam laut berasal dari pelapukan batuan yang terbawa sungai; penguapan meninggalkan garam; air garam menambah daya apung. Tanpa angka. Rujukan: NOAA (Why is the ocean salty).",
+ "approved_at": "2026-11-15T08:16:40"
+}

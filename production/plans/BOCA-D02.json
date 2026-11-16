@@ -1,0 +1,836 @@
+{
+ "id": "BOCA-D02",
+ "day": 2,
+ "title": "Kenapa langit warnanya biru?",
+ "series": "KYB",
+ "duration_target": 45,
+ "facts_status": "verified",
+ "cta": "Coba lihat langit sore ini, warnanya apa?",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "sky_light",
+ "motion_motif": "light_prism_and_scatter",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": null,
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 135,
+  "est_seconds": 42.7,
+  "lumi_lines": 3,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [
+     "nggak ada catnya"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [
+     "campuran"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menunjukkan",
+    "emphasis": [
+     "pelangi"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menganalogikan",
+    "emphasis": [
+     "kerumunan"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [
+     "biru"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [
+     "merah dan oranye"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [
+     "warnanya apa"
+    ],
+    "pause_before": 0.0,
+    "pause_after": 0.3
+   }
+  ]
+ },
+ "publish": {
+  "title": "BOCA — Kenapa langit warnanya biru? #Shorts",
+  "description": "Langit itu biru, tapi langitnya nggak punya cat. Cahaya matahari sebenarnya campur banyak warna, dan udara yang lempar cahaya biru ke segala arah. Coba lihat langit sore ini, warnanya apa? #faktaunik #belajarseru #edukasicuma #ideinaja #Shorts",
+  "hashtags": [
+   "#faktaunik",
+   "#belajarseru",
+   "#edukasicuma",
+   "#ideinaja",
+   "#Shorts"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "sky",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.62
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "period": 0.8,
+     "x": 250,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.2,
+     "expr": "happy",
+     "pose": "float",
+     "x": 870,
+     "y": 1080,
+     "h": 235
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Langit biru, tapi langitnya nggak ada catnya. Warnanya dari mana?",
+     "caption": "langit biru tanpa cat",
+     "caption_adult": "warna langit berasal dari hamburan cahaya"
+    },
+    {
+     "who": "lumi",
+     "text": "Iya, dari bawah biru. Dari atas juga tetap biru, kan?",
+     "caption": "dari atas juga biru",
+     "caption_adult": "warna langit sama dari berbagai sudut"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 1.8
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 1.8,
+     "to": 3.8,
+     "z": 1.46
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 3.8,
+     "to": 6.3
+    }
+   ],
+   "props": [],
+   "guest": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 2,
+   "scene": "sky",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.85,
+     "x": 252,
+     "ground": 1400,
+     "h": 658
+    }
+   ],
+   "lumi": [
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "float",
+     "x": 880,
+     "y": 1120,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Cahaya matahari kelihatan putih, padahal isinya campuran banyak warna.",
+     "caption": "putih, tapi isinya banyak warna",
+     "caption_adult": "cahaya putih adalah campuran spektrum"
+    },
+    {
+     "who": "boca",
+     "text": "Merah, kuning, hijau, biru, ungu, semuanya ada di dalam cahaya matahari itu.",
+     "caption": "semua warna ada di cahaya",
+     "caption_adult": "spektrum tampak lengkap dalam cahaya matahari"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.4
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 2.4,
+     "to": 4.6,
+     "z": 1.46
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.6,
+     "to": 6.0
+    }
+   ],
+   "props": [],
+   "guest": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 3,
+   "scene": "prism",
+   "cam": {
+    "fx": [
+     0.47,
+     0.5
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.1,
+     1.45
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "prop": "prism",
+     "x": 250,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "prop": "prism",
+     "x": 255,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.8,
+     "prop": "prism",
+     "x": 252,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 860,
+     "y": 1160,
+     "h": 238
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "sparkle",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Lewat prisma, cahaya putih pecah jadi pelangi. Itu buktinya.",
+     "caption": "prisma memecah cahaya jadi pelangi",
+     "caption_adult": "dispersi cahaya oleh prisma"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi cahaya matahari itu sebenarnya banyak warna, ya?",
+     "caption": "ternyata banyak warna",
+     "caption_adult": "cahaya matahari mengandung banyak warna"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 2.2,
+     "to": 4.4,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.4,
+     "to": 6.0
+    }
+   ],
+   "props": [],
+   "guest": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 4,
+   "scene": "atmosphere",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 648
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 653
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.8,
+     "x": 252,
+     "ground": 1400,
+     "h": 650
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 850,
+     "y": 1180,
+     "h": 236
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Udara di atas kita itu seperti kerumunan orang di lorong sempit.",
+     "caption": "udara seperti kerumunan orang",
+     "caption_adult": "partikel udara menghamburkan cahaya"
+    },
+    {
+     "who": "boca",
+     "text": "Cahaya biru paling kecil, jadi paling sering terpental ke mana-mana.",
+     "caption": "biru paling sering terpental",
+     "caption_adult": "gelombang pendek dihamburkan lebih kuat"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 2.2,
+     "to": 4.4,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.4,
+     "to": 6.0
+    }
+   ],
+   "props": [],
+   "guest": [],
+   "est_seconds": 6.0
+  },
+  {
+   "n": 5,
+   "scene": "space",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "period": 0.8,
+     "x": 255,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Makanya dari Bumi langit terlihat biru, bukan ungu atau merah.",
+     "caption": "karena itu langit terlihat biru",
+     "caption_adult": "hamburan Rayleigh mendominasi warna biru"
+    },
+    {
+     "who": "lumi",
+     "text": "Kalau di bulan, langitnya hitam karena tidak ada udara.",
+     "caption": "di bulan langitnya hitam",
+     "caption_adult": "tanpa atmosfer tidak ada hamburan cahaya"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 1.6
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 1.6,
+     "to": 3.6,
+     "z": 1.46
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 3.6,
+     "to": 6.3,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    }
+   ],
+   "props": [],
+   "guest": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 6,
+   "scene": "sunset",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 255,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "period": 0.85,
+     "x": 252,
+     "ground": 1400,
+     "h": 658
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.2,
+     "expr": "happy",
+     "pose": "float",
+     "x": 870,
+     "y": 1060,
+     "h": 238
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.7
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Saat sore, cahaya matahari menempuh jalan lebih jauh lewat atmosfer.",
+     "caption": "sore, cahaya jalan lebih jauh",
+     "caption_adult": "lintasan cahaya lebih panjang saat senja"
+    },
+    {
+     "who": "boca",
+     "text": "Biru habis di jalan, tinggal merah dan oranye yang sampai.",
+     "caption": "tinggal merah dan oranye",
+     "caption_adult": "biru tersebar habis, merah tersisa"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.0
+    },
+    {
+     "mode": "SPOTLIGHT_EFFECT",
+     "from": 2.0,
+     "to": 4.2,
+     "focus": "boca",
+     "dim": 0.58,
+     "cone": true
+    },
+    {
+     "mode": "WIDE_STAGE",
+     "from": 4.2,
+     "to": 6.6
+    }
+   ],
+   "props": [],
+   "guest": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 7,
+   "scene": "park_evening",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.62
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 250,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 252,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 870,
+     "y": 1050,
+     "h": 240
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jadi langit nggak dicat. Udara dan cahaya yang mewarnainya.",
+     "caption": "udara dan cahaya yang mewarnai",
+     "caption_adult": "warna langit adalah hasil hamburan"
+    },
+    {
+     "who": "boca",
+     "text": "Coba lihat langit sore ini. Warnanya apa menurutmu?",
+     "caption": "warnanya apa menurutmu",
+     "caption_adult": "amati warna langit saat senja"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "WIDE_STAGE",
+     "from": 0.0,
+     "to": 2.2
+    },
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "from": 2.2,
+     "to": 5.4,
+     "z": 1.46
+    }
+   ],
+   "props": [],
+   "guest": [],
+   "est_seconds": 5.4
+  }
+ ],
+ "facts_verified_at": "2026-11-14T11:39:21",
+ "facts_note": "Semua klaim fisika dasar (hamburan Rayleigh). Tanpa angka, tanpa klaim kesehatan. Review: aman.",
+ "approved_at": "2026-11-13T20:30:00"
+}

@@ -1,0 +1,853 @@
+{
+ "id": "BOCA-D15",
+ "day": 15,
+ "title": "Kenapa jantung nggak pernah berhenti bekerja?",
+ "series": "BMT",
+ "duration_target": 60,
+ "facts_status": "verified",
+ "cta": "Coba hitung detak jantungmu.",
+ "status": "approved",
+ "needs_review": false,
+ "scene_family": "body_circulation",
+ "motion_motif": "heartbeat_pulse",
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Autonoe",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 180,
+  "est_seconds": 57,
+  "lumi_lines": 3,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "dokter_nia"
+ },
+ "analogy": {
+  "source": "lampu lalu lintas yang berganti warna terus-menerus",
+  "maps": [
+   {
+    "real": "jantung punya pengatur irama sendiri",
+    "analogy": "lampu lalu lintas punya pengatur waktu"
+   },
+   {
+    "real": "sinyal jantung punya jalur cadangan",
+    "analogy": "ada jalur cadangan kalau sinyal utama putus"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Semua orang pernah menunggu di lampu merah dan tahu sistemnya jalan terus tanpa kelola."
+ },
+ "publish": {
+  "title": "BOCA — Kenapa jantung nggak pernah berhenti bekerja?",
+  "description": "Jantung memompa darah untuk mengirim oksigen dan nutrisi ke seluruh tubuh.\n\nBOCA berada di dalam tubuh manusia, dekat jantung dan pembuluh darah.\n\nCoba hitung detak jantungmu.\n\n#teknologi #caramudah #belajarseru #ideinaja",
+  "hashtags": [
+   "#teknologi",
+   "#caramudah",
+   "#belajarseru",
+   "#ideinaja"
+  ],
+  "category": "Education"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "body_inside",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kok jantung kita nggak boleh berhenti walau sedetik pun, ya?",
+     "caption": "jantung nggak boleh berhenti",
+     "caption_adult": "Kok jantung kita nggak boleh berhenti walau sedetik pun, ya?"
+    },
+    {
+     "who": "boca",
+     "text": "Karena begitu berhenti, seluruh tubuh ikut berhenti dalam hitungan detik saja.",
+     "caption": "berhenti berarti tubuh ikut berhenti",
+     "caption_adult": "ketergantungan sistemik"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.6
+  },
+  {
+   "n": 2,
+   "scene": "playground_clock",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan pompa air yang harus jalan terus setiap detik, lalu berhenti mendadak saja.",
+     "caption": "pompa air harus jalan terus",
+     "caption_adult": "analogi sistem terus-menerus"
+    },
+    {
+     "who": "lumi",
+     "text": "Pompa berhenti, airnya berhenti mengalir. Sama seperti darah yang mengalir ke seluruh tubuh, ya?",
+     "caption": "pompa berhenti, air berhenti mengalir",
+     "caption_adult": "pemetaan pompa ke jantung"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 8.4
+  },
+  {
+   "n": 3,
+   "scene": "neuron_city",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jantung punya alat pengatur sendiri, seperti metronom yang terus berdetak tanpa henti.",
+     "caption": "jantung punya pengatur sendiri",
+     "caption_adult": "otot jantung otomatik"
+    },
+    {
+     "who": "boca",
+     "text": "Sinyal listrik itu membuat otot jantung berkontraksi tanpa kita sadari dan tanpa izin.",
+     "caption": "sinyal listrik membuat otot berkontraksi",
+     "caption_adult": "mekanisme listrik"
+    }
+   ],
+   "layouts": [],
+   "props": [
+    {
+     "id": "clock",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ],
+   "est_seconds": 7.8
+  },
+  {
+   "n": 4,
+   "scene": "city_top",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan lampu lalu lintas yang berganti warna terus-menerus di setiap persimpangan.",
+     "caption": "lampu lalu lintas berganti terus",
+     "caption_adult": "analogi irama"
+    },
+    {
+     "who": "dokter_nia",
+     "text": "Kalau lampu itu macet, semua kendaraan yang lewat di sana ikut berhenti.",
+     "caption": "lampu macet, semua ikut berhenti",
+     "caption_adult": "efek gagal di satu titik"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 7.2
+  },
+  {
+   "n": 5,
+   "scene": "body_inside",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jadi jantung punya dua jalur sinyal yang berbeda, supaya tetap berdetak terus.",
+     "caption": "dua jalur sinyal",
+     "caption_adult": "sistem konduksi cadangan"
+    },
+    {
+     "who": "lumi",
+     "text": "Artinya ada cadangan kalau jalannya utama sedang bermasalah?",
+     "caption": "ada cadangan kalau jalur utama bermasalah",
+     "caption_adult": "klarifikasi redundansi"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 6,
+   "scene": "playground_clock",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Betul. Satu jalur bisa rusak, dan jalur yang lain langsung mengambil alih tugasnya.",
+     "caption": "satu jalur rusak, yang lain mengambil alih",
+     "caption_adult": "failover sistem"
+    },
+    {
+     "who": "boca",
+     "text": "Itulah kenapa detak jantung kita jarang sekali berhenti mendadak.",
+     "caption": "detak jantung jarang berhenti mendadak",
+     "caption_adult": "ketahanan sistem kardiovaskular"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.9
+  },
+  {
+   "n": 7,
+   "scene": "body_inside",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "shock",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.4,
+     "expr": "happy",
+     "pose": "point",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Olahraga membuat jantung bekerja lebih cepat, lalu istirahat untuk pulih lagi.",
+     "caption": "하기로 membuat jantung bekerja lebih cepat",
+     "caption_adult": "latihan dan pemulihan"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi olahraga itu melatih jantung, bukan membebani dan mengurasnya?",
+     "caption": "olahraga melatih jantung",
+     "caption_adult": "klarifikasi manfaat"
+    }
+   ],
+   "layouts": [],
+   "props": [],
+   "est_seconds": 6.3
+  },
+  {
+   "n": 8,
+   "scene": "city_top",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "chime",
+     0.6
+    ]
+   ],
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba hitung denyut nadi kamu setelah lari sebentar, berapa kali dalam satu menit?",
+     "caption": "hitung denyut nadi setelah lari",
+     "caption_adult": "pengukuran mandiri"
+    },
+    {
+     "who": "dokter_nia",
+     "text": "Secepatan lari, detak jantung ikut menyesuaikan diri juga sekarang.",
+     "caption": "detak jantung menyesuaikan diri",
+     "caption_adult": "respons natural"
+    }
+   ],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "dokter_nia",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ],
+   "props": [],
+   "est_seconds": 6.9
+  }
+ ],
+ "facts_verified_at": "2026-11-15T08:16:40",
+ "facts_note": "Jantung punya SA node dan AV node; satu jalur bermasalah, jalur lain bisa mengambil alih irama. Rujukan: American Heart Association (conduction system).",
+ "approved_at": "2026-11-15T08:16:40"
+}

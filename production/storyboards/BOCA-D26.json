@@ -1,0 +1,996 @@
+{
+ "id": "BOCA-D26",
+ "day": 26,
+ "series": "BBU",
+ "title": "Kenapa uang harus dicetak oleh negara?",
+ "duration_target": 60,
+ "facts_status": "pending",
+ "logline": "Bu Ratna heran kenapa uang tidak boleh dicetak sendiri. Boca menjelaskan kepercayaan, pengaman, dan kenapa jumlah uang harus dijaga.",
+ "hook": {
+  "pattern": "H1",
+  "claim": "Kalau uang cuma kertas, kenapa nggak boleh dicetak sendiri?",
+  "gap": "Kertasnya kan bisa dibeli di toko mana saja.",
+  "promise": "Yang bikin uang bernilai adalah kepercayaan dan aturan di belakangnya.",
+  "seconds": 3
+ },
+ "cast": {
+  "host": "boca",
+  "sidekick": "lumi",
+  "guest": "bu_ratna"
+ },
+ "analogy": {
+  "source": "uang mainan monopoli yang tidak bisa dipakai belanja",
+  "maps": [
+   {
+    "real": "uang resmi diakui dan diterima semua orang",
+    "analogy": "uang mainan hanya berlaku di dalam permainan"
+   },
+   {
+    "real": "uang palsu ditolak karena tidak diakui",
+    "analogy": "uang mainan ditolak kasir toko"
+   }
+  ],
+  "line_shot": 4,
+  "why_it_works": "Hampir semua orang pernah memegang uang mainan dan tahu uang itu tidak laku di toko."
+ },
+ "structure": [
+  {
+   "beat": "hook",
+   "shot": 1
+  },
+  {
+   "beat": "setup",
+   "shot": 2
+  },
+  {
+   "beat": "explain",
+   "shot": 3
+  },
+  {
+   "beat": "explain",
+   "shot": 4
+  },
+  {
+   "beat": "explain",
+   "shot": 5
+  },
+  {
+   "beat": "explain",
+   "shot": 6
+  },
+  {
+   "beat": "twist",
+   "shot": 7
+  },
+  {
+   "beat": "payoff",
+   "shot": 8
+  },
+  {
+   "beat": "cta",
+   "shot": 9
+  }
+ ],
+ "vo": {
+  "voice_boca": "Puck",
+  "voice_lumi": "Aoede",
+  "voice_guest": "Kore",
+  "style_note": "hangat, santai, tempo sedang, tanpa baby talk",
+  "total_words": 182,
+  "est_seconds": 57,
+  "lumi_lines": 1,
+  "beats": [
+   {
+    "shot": 1,
+    "function": "hook",
+    "emotion": "penasaran",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 2,
+    "function": "setup",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 3,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 4,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 5,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 6,
+    "function": "explain",
+    "emotion": "menjelaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 7,
+    "function": "twist",
+    "emotion": "menegaskan",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 8,
+    "function": "payoff",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   },
+   {
+    "shot": 9,
+    "function": "cta",
+    "emotion": "hangat",
+    "emphasis": [],
+    "pause_before": 0.0,
+    "pause_after": 0.2
+   }
+  ]
+ },
+ "shots": [
+  {
+   "n": 1,
+   "scene": "money_print",
+   "beat": "hook",
+   "cam": {
+    "fx": [
+     0.3,
+     0.55
+    ],
+    "fy": [
+     0.4,
+     0.45
+    ],
+    "z": [
+     1.0,
+     1.1
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "walk",
+     "arms": [
+      0
+     ],
+     "x": -300,
+     "ground": 1400,
+     "h": 640
+    },
+    {
+     "t": 1.6,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660,
+     "period": 0.8
+    },
+    {
+     "t": 3.4,
+     "expr": "neutral",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 662
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "whoosh",
+     0.8
+    ]
+   ],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau uang cuma kertas, kenapa nggak boleh dicetak sendiri?",
+     "caption": "kenapa nggak boleh cetak uang",
+     "caption_adult": "kalau uang cuma kertas kenapa tidak boleh dicetak sendiri"
+    },
+    {
+     "who": "bu_ratna",
+     "text": "Iya, kertasnya kan bisa dibeli di toko dekat rumah kita.",
+     "caption": "kertas bisa dibeli di toko",
+     "caption_adult": "kertas dijual di toko"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "confused",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 0,
+     "target": "boca",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "scene": "money_print",
+   "beat": "setup",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.0,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.2,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.85
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.0,
+     "expr": "happy",
+     "pose": "float",
+     "x": 860,
+     "y": 1080,
+     "h": 234
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Yang membuat uang bernilai bukan kertasnya, tapi kepercayaan orang banyak.",
+     "caption": "nilainya dari kepercayaan",
+     "caption_adult": "nilai dari kepercayaan"
+    },
+    {
+     "who": "boca",
+     "text": "Negara mencetak dengan pengaman khusus supaya tidak mudah dipalsukan orang.",
+     "caption": "ada pengaman khusus",
+     "caption_adult": "ada pengaman anti palsu"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 3,
+   "scene": "data_center",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.5,
+     0.46
+    ],
+    "fy": [
+     0.46,
+     0.42
+    ],
+    "z": [
+     1.3,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Ada lembaga negara yang mengatur berapa banyak uang boleh beredar.",
+     "caption": "ada lembaga pengatur",
+     "caption_adult": "ada lembaga pengatur uang"
+    },
+    {
+     "who": "boca",
+     "text": "Tugas utamanya menjaga harga barang agar tidak melonjak terlalu cepat.",
+     "caption": "menjaga harga stabil",
+     "caption_adult": "menjaga harga tetap stabil"
+    }
+   ],
+   "guest": [],
+   "props": [
+    {
+     "id": "coin_stack",
+     "on_line": 0,
+     "max_span": 3.2,
+     "x": 540,
+     "y": 300,
+     "h": 300,
+     "beat": true,
+     "anim": "pop_float"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "scene": "park_sunleft",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.3,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Bayangkan uang mainan monopoli dipakai untuk belanja di pasar sungguhan.",
+     "caption": "uang mainan di pasar",
+     "caption_adult": "uang monopoli di pasar"
+    },
+    {
+     "who": "bu_ratna",
+     "text": "Pasti ditolak, karena tidak diakui oleh semua orang di sana.",
+     "caption": "ditolak karena tak diakui",
+     "caption_adult": "ditolak, tidak diakui"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": []
+  },
+  {
+   "n": 5,
+   "scene": "house_cutaway",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.45,
+     0.45
+    ],
+    "fy": [
+     0.62,
+     0.3
+    ],
+    "z": [
+     1.0,
+     1.06
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 7.2,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Uang mainan itu hanya berlaku di dalam permainan, bukan di toko sungguhan.",
+     "caption": "hanya berlaku di permainan",
+     "caption_adult": "hanya laku di permainan"
+    },
+    {
+     "who": "boca",
+     "text": "Begitu juga uang asli: harus diakui bersama supaya bisa dipakai sehari-hari.",
+     "caption": "harus diakui bersama",
+     "caption_adult": "harus diakui semua orang"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 6,
+   "scene": "market",
+   "beat": "explain",
+   "cam": {
+    "fx": [
+     0.3,
+     0.7
+    ],
+    "fy": [
+     0.35,
+     0.6
+    ],
+    "z": [
+     1.0,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "focus",
+     "pose": "stand",
+     "arms": [
+      1
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.2,
+     "expr": "focus",
+     "pose": "point",
+     "arms": [
+      3
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 4.4,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 652,
+     "period": 0.8
+    }
+   ],
+   "lumi": [
+    {
+     "t": 1.4,
+     "expr": "shock",
+     "pose": "float",
+     "x": 880,
+     "y": 1100,
+     "h": 232
+    }
+   ],
+   "sfx": [],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Jumlah uang yang beredar dan jumlah barang di pasar harus berjalan seimbang.",
+     "caption": "uang dan barang seimbang",
+     "caption_adult": "uang dan barang seimbang"
+    },
+    {
+     "who": "boca",
+     "text": "Kalau uangnya terlalu banyak, harga barang ikut naik terus.",
+     "caption": "uang banyak, harga naik",
+     "caption_adult": "uang berlebih, harga naik"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 7,
+   "scene": "beach",
+   "beat": "twist",
+   "cam": {
+    "fx": [
+     0.55,
+     0.3
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.15,
+     1.0
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 650
+    },
+    {
+     "t": 2.4,
+     "expr": "shock",
+     "pose": "stand",
+     "arms": [
+      0,
+      3
+     ],
+     "x": 375,
+     "ground": 1400,
+     "h": 655,
+     "period": 0.8
+    },
+    {
+     "t": 4.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 340,
+     "ground": 1400,
+     "h": 652
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Kalau semua orang bisa cetak uang, jumlahnya jadi tidak terkendali.",
+     "caption": "uang bisa tak terkendali",
+     "caption_adult": "jumlah uang lepas kendali"
+    },
+    {
+     "who": "boca",
+     "text": "Barangnya tetap sedikit, uangnya banyak, harga pun melonjak cepat.",
+     "caption": "barang sedikit, harga melonjak",
+     "caption_adult": "barang sedikit, harga naik"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 8,
+   "scene": "city_street",
+   "beat": "payoff",
+   "cam": {
+    "fx": [
+     0.32,
+     0.62
+    ],
+    "fy": [
+     0.45,
+     0.45
+    ],
+    "z": [
+     1.05,
+     1.05
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.6,
+     "expr": "happy",
+     "pose": "point",
+     "arms": [
+      2
+     ],
+     "x": 735,
+     "ground": 1400,
+     "h": 660
+    },
+    {
+     "t": 4.8,
+     "expr": "neutral",
+     "pose": "stand",
+     "arms": [
+      1,
+      3
+     ],
+     "x": 700,
+     "ground": 1400,
+     "h": 658,
+     "period": 0.85
+    }
+   ],
+   "lumi": [],
+   "sfx": [],
+   "est_seconds": 6.0,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Inflasi itu punya banyak sebab, bukan hanya dari mesin cetak uang.",
+     "caption": "inflasi banyak sebab",
+     "caption_adult": "inflasi banyak penyebab"
+    },
+    {
+     "who": "lumi",
+     "text": "Jadi uang harus dijaga, bukan cuma dicetak sebanyak-banyaknya?",
+     "caption": "uang harus dijaga",
+     "caption_adult": "uang perlu dijaga"
+    }
+   ],
+   "guest": [],
+   "props": []
+  },
+  {
+   "n": 9,
+   "scene": "phone_inside",
+   "beat": "cta",
+   "cam": {
+    "fx": [
+     0.46,
+     0.5
+    ],
+    "fy": [
+     0.44,
+     0.46
+    ],
+    "z": [
+     1.0,
+     1.25
+    ]
+   },
+   "keys": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "arms": [
+      0
+     ],
+     "x": 300,
+     "ground": 1400,
+     "h": 655
+    },
+    {
+     "t": 2.0,
+     "expr": "happy",
+     "pose": "wave",
+     "arms": [
+      3
+     ],
+     "x": 335,
+     "ground": 1400,
+     "h": 660
+    }
+   ],
+   "lumi": [],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     0.6
+    ]
+   ],
+   "est_seconds": 6.6,
+   "dialogue": [
+    {
+     "who": "boca",
+     "text": "Coba bayangkan kalau uang bisa dicetak siapa saja. Pasti serem, kan?",
+     "caption": "kalau semua bisa cetak",
+     "caption_adult": "jika semua bisa mencetak"
+    },
+    {
+     "who": "bu_ratna",
+     "text": "Jadi uang itu butuh aturan dan pengelolaan, bukan cuma mesin.",
+     "caption": "butuh aturan dan kelola",
+     "caption_adult": "butuh aturan dan pengelolaan"
+    }
+   ],
+   "guest": [
+    {
+     "t": 0.0,
+     "expr": "happy",
+     "pose": "stand",
+     "x": 640,
+     "ground": 1420,
+     "h": 615
+    },
+    {
+     "t": 1.6,
+     "expr": "happy",
+     "pose": "wave",
+     "x": 610,
+     "ground": 1420,
+     "h": 617
+    }
+   ],
+   "props": [],
+   "layouts": [
+    {
+     "mode": "CLOSEUP_EMPHASIS",
+     "on_line": 1,
+     "target": "bu_ratna",
+     "z": 1.46,
+     "max_span": 3.7
+    }
+   ]
+  }
+ ],
+ "asset_needs": [
+  {
+   "type": "scene",
+   "id": "money_print",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "data_center",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "park_sunleft",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "house_cutaway",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "market",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "beach",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "city_street",
+   "priority": "P0"
+  },
+  {
+   "type": "scene",
+   "id": "phone_inside",
+   "priority": "P0"
+  },
+  {
+   "type": "character",
+   "id": "bu_ratna",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Puck",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Aoede",
+   "priority": "P0"
+  },
+  {
+   "type": "voice",
+   "id": "Kore",
+   "priority": "P0"
+  }
+ ],
+ "production_notes": "Tamu bu_ratna bicara 3 baris. Tidak mengklaim inflasi hanya karena cetak uang.",
+ "scene_family": "money_print",
+ "motion_motif": "printing_press_and_supply"
+}
